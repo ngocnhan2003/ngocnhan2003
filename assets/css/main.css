@@ -1053,3 +1053,7 @@
 		body.is-ie #wrapper {
 			height: 100%;
 		}
+
+header > h1 {
+	text-transform: none;
+}
