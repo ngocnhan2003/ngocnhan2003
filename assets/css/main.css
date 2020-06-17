@@ -196,7 +196,7 @@
 		}
 
 		a:hover {
-			color: #ff7496;
+			color: #4a6268;
 		}
 
 	strong, b {
@@ -271,7 +271,7 @@
 	hr {
 		border: 0;
 		border-bottom: solid 1px #c8cccf;
-		margin: 3em 0;
+		margin: 1em 0 3em 0;
 	}
 
 /* Form */
@@ -390,7 +390,7 @@
 		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #ff7496;
+			border-color: #4a6268;
 		}
 
 	select {
@@ -486,13 +486,13 @@
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			color: #ff7496;
+			color: #4a6268;
 			content: '\f00c';
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #ff7496;
+			border-color: #4a6268;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -780,7 +780,7 @@
 				}
 
 				ul.icons li a:hover:before {
-					text-shadow: 1.25px 0px 0px #ff7496, -1.25px 0px 0px #ff7496, 0px 1.25px 0px #ff7496, 0px -1.25px 0px #ff7496;
+					text-shadow: 1.25px 0px 0px #4a6268, -1.25px 0px 0px #4a6268, 0px 1.25px 0px #4a6268, 0px -1.25px 0px #4a6268;
 				}
 
 				ul.icons li a:before {
@@ -796,7 +796,7 @@
 				}
 
 				ul.icons li a:hover {
-					border-color: #ff7496;
+					border-color: #4a6268;
 				}
 
 		@media screen and (max-width: 480px) {
@@ -841,8 +841,8 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			border-color: #ff7496;
-			color: #ff7496 !important;
+			border-color: #4a6268;
+			color: #4a6268 !important;
 		}
 
 		input[type="submit"].icon,
@@ -1056,4 +1056,38 @@
 
 header > h1 {
 	text-transform: none;
+}
+
+.hidden {
+	display: none !important;
+}
+
+.show {
+	visibility: visible;
+	opacity: 1;
+	transition: visibility 0s, opacity 0.5s linear;
+}
+
+.crt-logo {
+	display: none !important;
+}
+
+#curator-feed-ngocnhan2003 {
+	padding-bottom: 0px;
+}
+
+.fadein, .fadeout {
+    opacity: 0;
+    -moz-transition: opacity 0.4s ease-in-out;
+    -o-transition: opacity 0.4s ease-in-out;
+    -webkit-transition: opacity 0.4s ease-in-out;
+	transition: opacity 0.4s ease-in-out;
+}
+
+.fab {
+	color: #a2adb3
+}
+
+.fab:hover {
+	color: #769fb4
 }

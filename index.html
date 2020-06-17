@@ -17,6 +17,10 @@
 </head>
 <body class="is-preload">
 
+<div id="curator-feed-ngocnhan2003" class="hidden">
+    <a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a>
+</div>
+
 <!-- Wrapper -->
 <div id="wrapper">
 
@@ -29,43 +33,10 @@
             <h1>Nhan N. TRAN</h1>
             <p>Software Engineer</p>
         </header>
-        <!--
-        <hr />
-        <h2>Extra Stuff!</h2>
-        <form method="post" action="#">
-            <div class="fields">
-                <div class="field">
-                    <input type="text" name="name" id="name" placeholder="Name" />
-                </div>
-                <div class="field">
-                    <input type="email" name="email" id="email" placeholder="Email" />
-                </div>
-                <div class="field">
-                    <select name="department" id="department">
-                        <option value="">Department</option>
-                        <option value="sales">Sales</option>
-                        <option value="tech">Tech Support</option>
-                        <option value="null">/dev/null</option>
-                    </select>
-                </div>
-                <div class="field">
-                    <textarea name="message" id="message" placeholder="Message" rows="4"></textarea>
-                </div>
-                <div class="field">
-                    <input type="checkbox" id="human" name="human" /><label for="human">I'm a human</label>
-                </div>
-                <div class="field">
-                    <label>But are you a robot?</label>
-                    <input type="radio" id="robot_yes" name="robot" /><label for="robot_yes">Yes</label>
-                    <input type="radio" id="robot_no" name="robot" /><label for="robot_no">No</label>
-                </div>
-            </div>
-            <ul class="actions special">
-                <li><a href="#" class="button">Get Started</a></li>
-            </ul>
-        </form>
-        <hr />
-        -->
+
+        <a id="get-started" href="#" class="fa fa-3x fa-eye fab"></a>
+        <hr/>
+        
         <footer>
             <ul class="icons">
                 <li>
@@ -82,7 +53,7 @@
     </section>
 
     <!-- Footer -->
-    <footer id="footer">
+    <footer id="footer" class="hidden">
         <ul class="copyright">
             <!-- <li>Design: <a href="http://html5up.net">HTML5 UP</a></li> -->
         </ul>
@@ -91,12 +62,43 @@
 </div>
 
 <!-- Scripts -->
-<script>
+<script type="text/javascript">
+    function load_insta() {
+        // Loader
+        var loader = new function () { this.rC = -1; this.r = []; this.add = function (src) { this.r.push(src); }; this.addTag = function (src, callback) { var head = document.getElementsByTagName('head')[0], tag = src.indexOf('.js') > 0 ? 'script' : 'link', s = document.createElement(tag); head.appendChild(s); s.onload = callback; if (tag === 'script') { s.type = 'text/javascript'; s.src = src; } else if (tag === 'link') { s.rel = 'stylesheet'; s.href = src; } }; this.loadNext = function () { this.rC++; if (this.rC >= this.r.length) { this.done(); } else { var r = this.r[this.rC]; this.addTag(r, this.loadNext.bind(this)); } }; this.done = function () { this.onResourcesLoaded(window.Curator); }; this.load = function (cb) { this.onResourcesLoaded = cb; this.loadNext(); }; };
+
+        // Config
+        var config = { "lang": "en", "debug": 0, "hidePoweredBy": false, "forceHttps": false, "feed": { "id": "07fa2519-38f1-414e-9d00-e950c83c687e", "apiEndpoint": "https:\/\/api.curator.io\/v1.1", "postsPerPage": 12, "params": {}, "limit": 25, "showAds": true }, "widget": { "autoLoadNew": false, "animate": false, "continuousScroll": false, "continuousScrollOffset": 50, "rows": 4, "template": "widget-grid", "showLoadMore": false, "loadMoreRows": 1 }, "post": { "template": "post-grid", "showTitles": true, "showShare": true, "showComments": false, "showLikes": false, "autoPlayVideos": false, "clickAction": "open-popup", "clickReadMoreAction": "open-popup", "imageHeight": "100%", "minWidth": 250 }, "popup": { "template": "popup", "templateWrapper": "popup-wrapper", "autoPlayVideos": false, "deepLink": false }, "filter": { "template": "filter", "showNetworks": false, "showSources": false, "showAll": false, "default": "all", "limitPosts": false, "limitPostNumber": 0, "period": "" }, "responsive": { "480": { "widget": { "loadMoreRows": 4 } }, "768": { "widget": { "loadMoreRows": 2 } } }, "container": "#curator-feed-ngocnhan2003", "type": "Grid", "theme": "sydney" };
+        var colours = { "widgetBgColor": "transparent", "bgColor": "#ffffff", "borderColor": "#cccccc", "iconColor": "#222222", "textColor": "#222222", "linkColor": "#999999" };
+        var styles = {};
+
+        // Bootstrap
+        function loaderCallback() {
+            window.Curator.loadWidget(config, colours, styles);
+        }
+
+        // Run Loader
+        loader.add('https://cdn.curator.io/4.0/css/curator.css');
+        loader.add('https://cdn.curator.io/published-css/07fa2519-38f1-414e-9d00-e950c83c687e.css');
+
+        loader.add('https://cdn.curator.io/4.0/js/curator.embed.min.js');
+
+        loader.load(loaderCallback);
+    }
+    
     if ('addEventListener' in window) {
+        document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+        
         window.addEventListener('load', function () {
             document.body.className = document.body.className.replace(/\bis-preload\b/, '');
         });
-        document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+
+        document.getElementById("get-started").addEventListener("click", function(){
+            document.getElementById("wrapper").className = "fadeout";
+            setTimeout(function() { document.getElementById("wrapper").className = "hidden"; }, 2000);
+            document.getElementById("curator-feed-ngocnhan2003").className = "show";
+            load_insta();
+        });
     }
 </script>
 
