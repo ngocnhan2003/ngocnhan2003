@@ -45,7 +45,7 @@
 		@include vendor('background-image', (
 			'url("images/overlay.png")',
 			'linear-gradient(60deg, #{transparentize(_palette(accent1), 0.5)} 5%, #{transparentize(_palette(accent2), 0.65)})',
-			'url("../../images/bg.jpg")'
+			'url("http://i2.wp.com/images.unsplash.com/photo-1484417894907-623942c8ee29")'
 		));
 		background-repeat:		repeat,			no-repeat,			no-repeat;
 		background-size:		100px 100px,	cover,				cover;
