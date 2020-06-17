@@ -35,6 +35,11 @@
 
 	body {
 		line-height: 1;
+		-ms-overflow-style: none;
+	}
+
+	body::-webkit-scrollbar {
+		display: none;
 	}
 
 	ol, ul {
@@ -94,7 +99,7 @@
 		box-sizing: inherit;
 	}
 
-	body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+	/* body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 		-moz-animation: none !important;
 		-webkit-animation: none !important;
 		-ms-animation: none !important;
@@ -103,7 +108,7 @@
 		-webkit-transition: none !important;
 		-ms-transition: none !important;
 		transition: none !important;
-	}
+	} */
 
 	html {
 		height: 100%;
@@ -1059,13 +1064,7 @@ header > h1 {
 }
 
 .hidden {
-	display: none !important;
-}
-
-.show {
-	visibility: visible;
-	opacity: 1;
-	transition: visibility 0s, opacity 0.5s linear;
+	opacity: 0;
 }
 
 .crt-logo {
@@ -1076,14 +1075,6 @@ header > h1 {
 	padding-bottom: 0px;
 }
 
-.fadein, .fadeout {
-    opacity: 0;
-    -moz-transition: opacity 0.4s ease-in-out;
-    -o-transition: opacity 0.4s ease-in-out;
-    -webkit-transition: opacity 0.4s ease-in-out;
-	transition: opacity 0.4s ease-in-out;
-}
-
 .fab {
 	color: #a2adb3
 }
@@ -1091,3 +1082,18 @@ header > h1 {
 .fab:hover {
 	color: #769fb4
 }
+
+
+.item {
+	position: relative;
+	min-width: 250px;
+	min-height: 250px;
+	width: auto;
+	text-align: left;
+	padding: 0px 20px;
+	color: white;
+	display: inline-block;
+	margin: 5px auto;
+	border: 1px solid black;
+	z-index: 1;
+  }
