@@ -27,10 +27,6 @@
 
 <body class="is-preload">
 
-    <ul class="grid effect-4 hidden" id="grid">
-        <span class="brands fa fa-instagram icon insta"></span>
-    </ul>
-
     <div id="wrapper">
         <section id="main">
             <header>
@@ -66,6 +62,10 @@
         </footer>
     </div>
 
+    <ul class="grid effect-4" id="grid">
+        <span class="brands fa fa-instagram icon insta"></span>
+    </ul>
+
     <!-- Scripts -->
     <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
     <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
@@ -75,6 +75,7 @@
     <script src="assets/js/animOnScroll.js"></script>
 
     <script type="text/javascript">
+        let loaded = false;
         function load_insta(end_cursor='') {
             let url = 'https://www.instagram.com/graphql/query/?query_hash=3e7706b09c6184d5eafd8b032dbcf487&variables={"tag_name":"ngocnhan2003","first":0,"after":"end_cursor"}';
             axios.get(url.replace('end_cursor', end_cursor))
@@ -86,22 +87,34 @@
                     }
                     if (edge_hashtag_to_media.page_info.has_next_page) {
                         load_insta(edge_hashtag_to_media.page_info.end_cursor);
+                    } else {
+                        loaded = true;
                     }
                 })
                 .catch(function (error) {
                     console.log(error);
                 })
                 .then(function () {
-                    new AnimOnScroll(document.getElementById('grid'), {
-                        minDuration: 0.4,
-                        maxDuration: 0.7,
-                        viewportFactor: 0.2
-                    });
-                    $('#grid').animate({
-                        opacity: '1.0'
-                    });
-                    $('body').css('background-image', 'none')
+                    if (loaded) {
+                        new AnimOnScroll(document.getElementById('grid'), {
+                            minDuration: 0.4,
+                            maxDuration: 0.7,
+                            viewportFactor: 0.2
+                        });
+                        loaded = false;
+                    }
                 });
+        }
+
+        function load_image() {
+            if (loaded) {
+                new AnimOnScroll(document.getElementById('grid'), {
+                    minDuration: 0.4,
+                    maxDuration: 0.7,
+                    viewportFactor: 0.2
+                });
+                loaded = false;
+            }
         }
     </script>
 
@@ -111,13 +124,15 @@
         $(function () {
             $('body').removeClass('is-preload');
         });
-
+        load_insta();
         $('#get-started').click(() => {
-            load_insta()
+            load_image();
             $('#wrapper, #main').animate({
                 opacity: '0.0',
-                height: '0px'
-            }, 1000, "linear", () => {
+                height: '0px',
+                padding: '0px',
+                margin: '0px'
+            }, 1000, function () {
                 $('#wrapper').hide();
             });
         });

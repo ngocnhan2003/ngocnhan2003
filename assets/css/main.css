@@ -1064,10 +1064,6 @@ header > h1 {
 	text-transform: none;
 }
 
-.hidden {
-	opacity: 0;
-}
-
 .fab {
 	color: #a2adb3
 }
