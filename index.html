@@ -76,6 +76,7 @@
 
     <script type="text/javascript">
         let loaded = false;
+
         function load_insta(end_cursor='') {
             let url = 'https://www.instagram.com/graphql/query/?query_hash=3e7706b09c6184d5eafd8b032dbcf487&variables={"tag_name":"ngocnhan2003","first":0,"after":"end_cursor"}';
             axios.get(url.replace('end_cursor', end_cursor))
@@ -101,20 +102,8 @@
                             maxDuration: 0.7,
                             viewportFactor: 0.2
                         });
-                        loaded = false;
                     }
                 });
-        }
-
-        function load_image() {
-            if (loaded) {
-                new AnimOnScroll(document.getElementById('grid'), {
-                    minDuration: 0.4,
-                    maxDuration: 0.7,
-                    viewportFactor: 0.2
-                });
-                loaded = false;
-            }
         }
     </script>
 
@@ -125,37 +114,34 @@
             $('body').removeClass('is-preload');
         });
 
-        function scrollDown(el) {
-            el.animate({
-                scrollTop: el[0].scrollHeight
-            }, 30000, function() {
-                scrollUp(el)
-            });
-        };
+        let page = $("html, body");
+        let enableScroll = false;
 
-        function scrollUp(el) {
-            el.animate({
-                scrollTop: 0
-            }, 30000, function() {
-                scrollDown(el);
-            });
-        };
-        
-        function scrollEvent(page) {
+        function scrollEvent(page, up = false) {
             page.on("scroll mousedown wheel DOMMouseScroll mousewheel keyup touchmove", function(){
                 page.stop();
             });
 
-            page.animate({ scrollTop: page[0].scrollHeight }, 30000, function(){
+            page.animate({ scrollTop: up ? 0 : page[0].scrollHeight }, 40000, 'linear', function(){
                 page.off("scroll mousedown wheel DOMMouseScroll mousewheel keyup touchmove");
             });
         }
 
-        var page = $("html, body");
+        $(window).scroll(function() {
+
+            if($(window).scrollTop() + $(window).height() >= $(document).height() - 50) {
+                scrollEvent(page, true);
+            }
+            if (enableScroll) {
+                if ($(window).scrollTop() <= 50) {
+                    scrollEvent(page);
+                }
+            }
+        });
 
         load_insta();
+
         $('#get-started').click(() => {
-            load_image();
             $('.avatar').addClass('hide-bf');
             $('#main').animate({
                 opacity: '0.0',
@@ -166,9 +152,9 @@
                     height: '0',
                     padding: '0',
                     minHeight: '0'
-                }, 1000, function() {
+                }, 1700, function() {
                     $('#wrapper').hide();
-                    // scrollDown(page);
+                    enableScroll = true;
                     scrollEvent(page);
                 });
             });
