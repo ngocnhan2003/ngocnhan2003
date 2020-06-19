@@ -45,11 +45,11 @@ $(function () {
     }
 
     $(window).scroll(function () {
-        if ($(window).scrollTop() + $(window).height() >= $(document).height() - 50) {
+        if ($(window).scrollTop() + $(window).height() >= $(document).height() - 5) {
             scrollEvent(page, true);
         }
         if (enableScroll) {
-            if ($(window).scrollTop() <= 50) {
+            if ($(window).scrollTop() <= 5) {
                 scrollEvent(page);
             }
         }
