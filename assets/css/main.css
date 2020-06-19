@@ -1083,6 +1083,10 @@ header > h1 {
     position: fixed !important;
 }
 
+.hide {
+    display: none;
+}
+
 .hide-bf:before {
     display: none !important;
 }

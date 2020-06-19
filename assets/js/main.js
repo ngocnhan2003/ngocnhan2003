@@ -59,6 +59,7 @@ $(function () {
 
     $('#get-started').click(() => {
         $('.avatar').addClass('hide-bf');
+        $('.insta').show('slow');
         $('#main').animate({
             opacity: '0.0',
             padding: '0px',
@@ -72,6 +73,7 @@ $(function () {
                 $('#wrapper').hide();
                 enableScroll = true;
                 scrollEvent(page);
+
             });
         });
     });
