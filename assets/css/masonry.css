@@ -215,18 +215,24 @@
 
 @media screen and (max-width: 1200px) {
 	.grid li {
+		width: 20%;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.grid li {
 		width: 25%;
 	}
 }
 
-
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 400px) {
 	.grid li {
-		width: 33.333%;
+		width: 33.3333%;
 	}
 }
 
-@media screen and (max-width: 400px) {
+
+@media screen and (max-width: 300px) {
 	.grid li {
 		width: 50%;
 	}
