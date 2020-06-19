@@ -127,13 +127,18 @@
         load_insta();
         $('#get-started').click(() => {
             load_image();
-            $('#wrapper, #main').animate({
+            $('#main').animate({
                 opacity: '0.0',
-                height: '0px',
                 padding: '0px',
                 margin: '0px'
-            }, 1000, function () {
-                $('#wrapper').hide();
+            }, 700, function () {
+                $('#wrapper').animate({
+                    height: '0',
+                    padding: '0',
+                    minHeight: '0'
+                }, 1000, function() {
+                    $('#wrapper').hide();
+                });
             });
         });
     </script>
