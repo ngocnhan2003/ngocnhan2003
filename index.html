@@ -124,6 +124,23 @@
         $(function () {
             $('body').removeClass('is-preload');
         });
+
+        function scrollDown(el) {
+            el.animate({
+                scrollTop: el[0].scrollHeight
+            }, 30000, function() {
+                scrollUp(el)
+            });
+        };
+
+        function scrollUp(el) {
+            el.animate({
+                scrollTop: 0
+            }, 30000, function() {
+                scrollDown(el);
+            });
+        };
+
         load_insta();
         $('#get-started').click(() => {
             load_image();
@@ -138,6 +155,7 @@
                     minHeight: '0'
                 }, 1000, function() {
                     $('#wrapper').hide();
+                    scrollDown($('html,body'))
                 });
             });
         });
