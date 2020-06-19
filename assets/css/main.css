@@ -1082,3 +1082,7 @@ header > h1 {
 	display: flex;
     position: fixed !important;
 }
+
+.hide-bf:before {
+    display: none !important;
+}

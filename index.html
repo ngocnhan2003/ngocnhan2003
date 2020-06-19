@@ -140,10 +140,23 @@
                 scrollDown(el);
             });
         };
+        
+        function scrollEvent(page) {
+            page.on("scroll mousedown wheel DOMMouseScroll mousewheel keyup touchmove", function(){
+                page.stop();
+            });
+
+            page.animate({ scrollTop: page[0].scrollHeight }, '15000', function(){
+                page.off("scroll mousedown wheel DOMMouseScroll mousewheel keyup touchmove");
+            });
+        }
+
+        var page = $("html, body");
 
         load_insta();
         $('#get-started').click(() => {
             load_image();
+            $('.avatar').addClass('hide-bf');
             $('#main').animate({
                 opacity: '0.0',
                 padding: '0px',
@@ -155,7 +168,8 @@
                     minHeight: '0'
                 }, 1000, function() {
                     $('#wrapper').hide();
-                    scrollDown($('html'));
+                    // scrollDown(page);
+                    scrollEvent(page);
                 });
             });
         });
