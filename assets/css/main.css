@@ -1077,3 +1077,8 @@ header > h1 {
 .fab:hover {
 	color: #769fb4
 }
+
+.float {
+	display: flex;
+    position: fixed !important;
+}
