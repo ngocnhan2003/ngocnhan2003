@@ -39,7 +39,7 @@ $(function () {
             page.stop();
         });
 
-        page.animate({scrollTop: up ? 0 : page[0].scrollHeight}, 40000, 'linear', function () {
+        page.animate({scrollTop: up ? 0 : page[0].scrollHeight}, 120000, 'linear', function () {
             page.off("scroll mousedown wheel DOMMouseScroll mousewheel keyup touchmove");
         });
     }
