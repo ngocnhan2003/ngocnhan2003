@@ -32,7 +32,7 @@ jobs:
           minify assets/css/main.css > assets/js/main.js
           minify index.html > index.html
           ls -l  assets/js
-          git branch -d preview
+          git branch -d preview  &>/dev/null
           git checkout -b preview
           git add . 
           git commmit -m "deploy for preview"
