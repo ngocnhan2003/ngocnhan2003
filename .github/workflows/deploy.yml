@@ -26,15 +26,15 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Start minify
+          export BRANCH=preview
           git status
           sudo apt-get install minify
           minify assets/js/main.js > assets/js/main.js
           minify assets/css/main.css > assets/js/main.js
           minify index.html > index.html
-          ls -l  assets/js
-          git branch -d preview  &>/dev/null
-          git checkout -b preview
+          git branch -l $BRANCH | grep $BRANCH && git branch -d $BRANCH
+          git checkout -b $BRANCH
           git add . 
-          git commmit -m "deploy for preview"
-          git push origin preview
+          git commmit -m "deploy for $BRANCH"
+          git push origin $BRANCH
 
