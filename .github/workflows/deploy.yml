@@ -35,6 +35,8 @@ jobs:
 
       - name: Git job
         run: |
+          git config --global user.email "deploy@ngocnhan2003.github.io"
+          git config --global user.name "DEPLOY BOT"
           export BRANCH=preview
           git branch -l $BRANCH | grep $BRANCH && git branch -d $BRANCH
           git checkout -b $BRANCH
