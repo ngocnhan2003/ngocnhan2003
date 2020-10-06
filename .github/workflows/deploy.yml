@@ -33,6 +33,6 @@ jobs:
         run: |
           echo Start minify
           git status
-          npm i minify -g
+          apt-get install minify
           minify assets/js/main.js > assets/js/main.min.js
           ls -l  assets/js
