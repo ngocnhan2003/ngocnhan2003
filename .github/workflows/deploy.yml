@@ -30,7 +30,7 @@ jobs:
         run: |
           cat minify.txt | while read line 
           do
-            minify $line > $line
+            minify $line -o $line
           done
 
       - name: Git job
