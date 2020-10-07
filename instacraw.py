@@ -5,7 +5,7 @@ url = 'https://www.instagram.com/graphql/query/?query_hash=3e7706b09c6184d5eafd8
 end_cursor = ''
 instacrawjson = 'assets/files/instacraw.json'
 result = json.loads(open(instacrawjson, 'r').read() or '{}')
-shortcodes = result.keys()
+display_urls = result.values()
 
 
 #link = 'https://www.instagram.com/p/'
@@ -21,8 +21,9 @@ try:
         edges = edge_hashtag_to_media['edges']
         for edge in edges:
             shortcode = edge['node']['shortcode']
-            if shortcode not in shortcodes:
-                result[shortcode] = edge['node']['display_url']
+            display_url = edge['node']['display_url']
+            if display_url not in display_url:
+                result[shortcode] = display_url
                 print('add: ' + shortcode)
                 changed = True
         if edge_hashtag_to_media['page_info']['has_next_page']:

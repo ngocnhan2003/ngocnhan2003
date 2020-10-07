@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  schedule:
+    - cron:  '* * 7,14,21 ? * * *'
+  repository_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup ENV
+        run: |
+          pip install requests
+      - name: Git config
+        run: |
+          git config --global user.email "deploy@ngocnhan2003.github.io"
+          git config --global user.name "DEPLOY BOT"
+          export BRANCH=preview
+          git checkout $BRANCH
+          git pull
+      - name: Craw insta
+        run: |
+          python instacraw.py
+      - name: Git job
+        run: |
+          git add . 
+          git commit -m "craw update for $BRANCH @ $(date)"
+          git push -f origin $BRANCH
+
