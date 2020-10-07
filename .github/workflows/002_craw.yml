@@ -26,10 +26,10 @@ jobs:
           git pull
       - name: Craw insta
         run: |
-          python instacraw.py $INSTACRAW
+          python instacraw.py $INSTACRAWJSON
       - name: Git job
         run: |
-          [[ $(git status -s $INSTACRAW) ]] && \
-            git add $INSTACRAW && \
+          [[ $(git status -s $INSTACRAWJSON) ]] && \
+            git add $INSTACRAWJSON && \
             git commit -m "craw update for $BRANCH @ $(date)" && \
             git push -f origin $BRANCH 
