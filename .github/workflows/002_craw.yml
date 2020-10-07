@@ -8,14 +8,15 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      BRANCH: "preview"
+      INSTACRAWJSON: "assets/files/instacraw.json"
     steps:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0
       - name: Setup ENV
         run: |
-          export BRANCH=preview
-          export INSTACRAW=assets/files/instacraw.json
           pip install requests
       - name: Git config
         run: |
