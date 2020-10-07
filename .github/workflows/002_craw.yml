@@ -14,20 +14,21 @@ jobs:
           fetch-depth: 0
       - name: Setup ENV
         run: |
+          export BRANCH=preview
+          export INSTACRAW=assets/files/instacraw.json
           pip install requests
       - name: Git config
         run: |
           git config --global user.email "deploy@ngocnhan2003.github.io"
           git config --global user.name "DEPLOY BOT"
-          export BRANCH=preview
           git checkout $BRANCH
           git pull
       - name: Craw insta
         run: |
-          python instacraw.py
+          python instacraw.py $INSTACRAW
       - name: Git job
         run: |
-          git add . 
-          git commit -m "craw update for $BRANCH @ $(date)"
-          git push -f origin $BRANCH
-
+          [[ $(git status -s $INSTACRAW) ]] && \
+            git add $INSTACRAW && \
+            git commit -m "craw update for $BRANCH @ $(date)" && \
+            git push -f origin $BRANCH 

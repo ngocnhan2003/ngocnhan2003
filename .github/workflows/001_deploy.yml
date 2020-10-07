@@ -24,20 +24,18 @@ jobs:
 
       - name: Setup ENV
         run: |
+          export BRANCH=preview
           sudo apt-get install minify
-
       - name: Start minify
         run: |
           cat minify.txt | while read line 
           do
             minify $line -o $line
           done
-
       - name: Git job
         run: |
           git config --global user.email "deploy@ngocnhan2003.github.io"
           git config --global user.name "DEPLOY BOT"
-          export BRANCH=preview
           git branch -l $BRANCH | grep $BRANCH && git branch -d $BRANCH
           git checkout -b $BRANCH
           git add . 

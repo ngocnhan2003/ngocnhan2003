@@ -1,9 +1,10 @@
+import sys
 import json
 import requests
 
 url = 'https://www.instagram.com/graphql/query/?query_hash=3e7706b09c6184d5eafd8b032dbcf487&variables={"tag_name":"ngocnhan2003","first":0,"after":"%s"}'
 end_cursor = ''
-instacrawjson = 'assets/files/instacraw.json'
+instacrawjson = sys.argv[1]
 result = json.loads(open(instacrawjson, 'r').read() or '{}')
 display_urls = result.values()
 
