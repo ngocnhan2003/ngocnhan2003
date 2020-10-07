@@ -29,7 +29,9 @@ jobs:
           python instacraw.py $INSTACRAWJSON
       - name: Git job
         run: |
-          [[ $(git status -s $INSTACRAWJSON) ]] && \
-            git add $INSTACRAWJSON && \
-            git commit -m "craw update for $BRANCH @ $(date)" && \
-            git push -f origin $BRANCH 
+          git status -s $INSTACRAWJSON
+          if [[ $? == 0 ]]; then
+            git add $INSTACRAWJSON
+            git commit -m "craw update for $BRANCH @ $(date)"
+            git push -f origin $BRANCH
+          fi
