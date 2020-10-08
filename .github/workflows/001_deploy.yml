@@ -30,3 +30,6 @@ jobs:
           git add . 
           git commit -m "deploy for $BRANCH @ $(date)"
           git push -f origin $BRANCH
+          git tag -d CRAW || true
+          git tag CRAW
+          git push origin CRAW
