@@ -7,6 +7,7 @@ end_cursor = ''
 instacrawjson = sys.argv[1]
 result = json.loads(open(instacrawjson, 'r').read() or '{}')
 display_urls = result.values()
+print('current post: %d' % len(display_urls))
 
 
 #link = 'https://www.instagram.com/p/'
@@ -20,10 +21,11 @@ try:
         edge_hashtag_to_media = data['data']['hashtag']['edge_hashtag_to_media']
 
         edges = edge_hashtag_to_media['edges']
+        print('tags found: %d' % len(edges))
         for edge in edges:
             shortcode = edge['node']['shortcode']
             display_url = edge['node']['display_url']
-            if display_url not in display_url:
+            if display_url not in display_urls:
                 result[shortcode] = display_url
                 print('add: ' + shortcode)
                 changed = True
@@ -36,4 +38,5 @@ except:
 
 if changed:
     open(instacrawjson, 'w').write(json.dumps(result))
+    print('write %d post to file: %s' % (len(result), instacrawjson))
 print('done')
