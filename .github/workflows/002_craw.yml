@@ -2,7 +2,7 @@ name: CRAW
 
 on:
   push:
-    branches: [ preview ]
+    branches: [ master ]
     paths: [ "last_deploy.log"]
   schedule:
     - cron:  "0 0 * * *"
