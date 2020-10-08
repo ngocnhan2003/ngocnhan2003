@@ -32,6 +32,7 @@ jobs:
           CHANGED=$(git status -s $INSTACRAWJSON)
           if [ -n "${CHANGED}" ]; then
             git add $INSTACRAWJSON
+            git add assets/images
             git commit -m "craw update for $BRANCH @ $(date)"
             git push -f origin $BRANCH
             echo "Pushed update"
