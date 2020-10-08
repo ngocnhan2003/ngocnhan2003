@@ -3,7 +3,7 @@ name: CRAW
 on:
   push:
     branches: [ preview ]
-    paths-ignore: [ "assets/files/instacraw.json" ]
+    tags: [ "CRAW" ]
   schedule:
     - cron:  "0 0 * * *"
   repository_dispatch:
