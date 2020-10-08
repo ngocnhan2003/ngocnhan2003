@@ -28,5 +28,6 @@ jobs:
           git checkout -b $BRANCH
           git add . 
           git commit -m "deploy for $BRANCH @ $(date)"
+          git tag "CRAW"
           git push -f origin $BRANCH
 

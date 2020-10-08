@@ -1,6 +1,11 @@
 name: CRAW
 
 on:
+  push:
+    branches:
+      - preview
+    tags:
+      - "CRAW"
   schedule:
     - cron:  "0 0 * * *"
   repository_dispatch:
