@@ -32,4 +32,4 @@ jobs:
           git push -f origin $BRANCH
           git tag -d CRAW || true
           git tag CRAW
-          git push origin CRAW
+          git push -f origin CRAW
