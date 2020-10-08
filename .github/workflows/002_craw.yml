@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - master
-      - preview
     paths-ignore:
       - "assets/files/instacraw.json"
   schedule:
