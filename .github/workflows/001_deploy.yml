@@ -29,7 +29,7 @@ jobs:
           git checkout -b $BRANCH
       - name: Rollup version and push
         run: |
-          CC=$(git rev-list b22c84b..master --count)
+          CC=$(git rev-list init..master --count)
           let "CC++"
           VERSION="v0.$CC"
           python version_handler.py $VERSION
