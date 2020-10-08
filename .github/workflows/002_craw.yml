@@ -4,8 +4,8 @@ on:
   push:
     branches:
       - preview
-    tags:
-      - "CRAW"
+    paths:
+      - index.html
   schedule:
     - cron:  "0 0 * * *"
   repository_dispatch:
