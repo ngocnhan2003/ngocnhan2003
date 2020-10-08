@@ -24,7 +24,7 @@ $(function () {
     }
 
     function load_insta() {
-        let url = 'https://raw.githubusercontent.com/ngocnhan2003/ngocnhan2003.github.io/preview/assets/files/instacraw.json';
+        let url = 'https://ngocnhan2003.github.io/assets/files/instacraw.json';
         let image_host = 'https://cdn.jsdelivr.net/gh/ngocnhan2003/ngocnhan2003.github.io@preview/assets/images/'
         axios.get(url)
             .then(function (response) {
