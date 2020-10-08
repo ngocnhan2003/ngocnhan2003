@@ -24,7 +24,7 @@ $(function () {
     }
 
     function load_insta() {
-        let url = 'assets/files/instacraw.json';
+        let url = 'https://raw.githubusercontent.com/ngocnhan2003/ngocnhan2003.github.io/preview/assets/files/instacraw.json';
         axios.get(url)
             .then(function (response) {
                 for (const [key, value] of Object.entries(response.data)) {
