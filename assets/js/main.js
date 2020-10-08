@@ -25,11 +25,12 @@ $(function () {
 
     function load_insta() {
         let url = 'https://raw.githubusercontent.com/ngocnhan2003/ngocnhan2003.github.io/preview/assets/files/instacraw.json';
+        let image_host = 'https://cdn.jsdelivr.net/gh/ngocnhan2003/ngocnhan2003.github.io@preview/assets/images/'
         axios.get(url)
             .then(function (response) {
-                for (const [key, value] of Object.entries(response.data)) {
-                    let link = 'https://www.instagram.com/p/' + key;
-                    $('#grid').append(`<li><img src="${value}"></li>`);
+                for (shortcode of response.data.tag_ngocnhan2003) {
+                    let link = 'https://www.instagram.com/p/' + shortcode;
+                    $('#grid').append(`<li><img src="${image_host + shortcode}"></li>`);
                 }
             })
             .catch(function (error) {
