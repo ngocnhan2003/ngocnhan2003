@@ -1,5 +1,4 @@
 $(function () {
-    let loaded = false;
     let page = $("html, body");
     let enableScroll = false;
 
@@ -24,33 +23,24 @@ $(function () {
       return array;
     }
 
-    function load_insta(end_cursor = '') {
-        let url = 'https://www.instagram.com/graphql/query/?query_hash=3e7706b09c6184d5eafd8b032dbcf487&variables={"tag_name":"ngocnhan2003","first":0,"after":"end_cursor"}';
-        axios.get(url.replace('end_cursor', end_cursor))
+    function load_insta() {
+        let url = 'https://cdn.jsdelivr.net/gh/ngocnhan2003/ngocnhan2003.github.io@preview/assets/files/instacraw.json';
+        axios.get(url)
             .then(function (response) {
-                let edge_hashtag_to_media = response.data.data.hashtag.edge_hashtag_to_media;
-                let edges = shuffle(edge_hashtag_to_media.edges);
-                for (let edge of edges) {
-                    let link = 'https://www.instagram.com/p/' + edge.node.shortcode;
-                    $('#grid').append(`<li><img src="${edge.node.display_url}"></li>`);
-                }
-                if (edge_hashtag_to_media.page_info.has_next_page) {
-                    load_insta(edge_hashtag_to_media.page_info.end_cursor);
-                } else {
-                    loaded = true;
+                for (const [key, value] of Object.entries(response.data)) {
+                    let link = 'https://www.instagram.com/p/' + key;
+                    $('#grid').append(`<li><img src="${value}"></li>`);
                 }
             })
             .catch(function (error) {
                 console.log(error);
             })
             .then(function () {
-                if (loaded) {
-                    new AnimOnScroll(document.getElementById('grid'), {
-                        minDuration: 0.4,
-                        maxDuration: 0.7,
-                        viewportFactor: 0.2
-                    });
-                }
+                new AnimOnScroll(document.getElementById('grid'), {
+                    minDuration: 0.4,
+                    maxDuration: 0.7,
+                    viewportFactor: 0.2
+                });
             });
     }
 
