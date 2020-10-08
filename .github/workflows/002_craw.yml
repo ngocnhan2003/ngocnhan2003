@@ -2,8 +2,9 @@ name: CRAW
 
 on:
   push:
-    branches: [ master ]
-    paths: [ "last_deploy.log"]
+    branches: [ preview ]
+    paths:
+      - "index.html"
   schedule:
     - cron:  "0 */12 * * *"
   repository_dispatch:
