@@ -27,9 +27,18 @@ jobs:
           git config --global user.name "DEPLOY BOT"
           git branch -l $BRANCH | grep $BRANCH && git branch -d $BRANCH
           git checkout -b $BRANCH
+      - name: Rollup version and push
+        run: |
+          CC=$(git rev-list HEAD --count)
+          let "CC++"
+          VERSION="v0.$CC"
+          python version_handler.py $VERSION
           git add . 
           git commit -m "deploy for $BRANCH @ $(date)"
           git push -f origin $BRANCH
+          git tag $VERSION
+          git push origin $VERSION
+
       - name: Craw Dispatch
         uses: peter-evans/repository-dispatch@v1
         with:
