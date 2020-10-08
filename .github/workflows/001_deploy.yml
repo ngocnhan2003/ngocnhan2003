@@ -11,6 +11,8 @@ jobs:
       BRANCH: "preview"
     steps:
       - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
       - name: Setup ENV
         run: |
           sudo apt-get install minify
@@ -29,7 +31,7 @@ jobs:
           git checkout -b $BRANCH
       - name: Rollup version and push
         run: |
-          CC=$(git rev-list refs/tags/init..master --count)
+          CC=$(git rev-list init..master --count)
           let "CC++"
           VERSION="v0.$CC"
           python version_handler.py $VERSION
