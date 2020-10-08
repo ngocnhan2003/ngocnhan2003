@@ -30,6 +30,9 @@ jobs:
           git add . 
           git commit -m "deploy for $BRANCH @ $(date)"
           git push -f origin $BRANCH
-          git tag -d CRAW || true
-          git tag CRAW
-          git push -f origin CRAW
+      - name: Craw Dispatch
+        uses: peter-evans/repository-dispatch@v1
+        with:
+          token: ${{ secrets.MY_GITHUB_TOKEN }}
+          repository: ngocnhan2003/ngocnhan2003.github.io
+          event-type: Start instacraw
