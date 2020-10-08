@@ -7,11 +7,9 @@ end_cursor = ''
 instacrawjson = sys.argv[1]
 result = json.loads(open(instacrawjson, 'r').read() or '{}')
 display_urls = result.values()
-print('current post: %d' % len(display_urls))
-
-
-#link = 'https://www.instagram.com/p/'
 changed = False
+
+print('current post: %d' % len(display_urls))
 
 try:
     while True:
