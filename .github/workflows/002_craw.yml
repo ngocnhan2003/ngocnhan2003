@@ -3,7 +3,7 @@ name: CRAW
 on:
   push:
     branches: [ preview ]
-    tags: [ "CRAW" ]
+    paths: [ "last_deploy.log"]
   schedule:
     - cron:  "0 0 * * *"
   repository_dispatch:
