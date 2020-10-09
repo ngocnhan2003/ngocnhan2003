@@ -25,7 +25,7 @@ $(function () {
 
     function load_insta() {
         let url = 'https://ngocnhan2003.github.io/assets/files/instacraw.json';
-        let image_host = 'http://i2.wp.com/ngocnhan2003.github.io/assets/images/shortcode?w=300'
+        let image_host = 'http://i2.wp.com/ngocnhan2003.github.io/assets/images/shortcode?w=400'
         axios.get(url)
             .then(function (response) {
                 for (shortcode of response.data.tag_ngocnhan2003) {
