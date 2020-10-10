@@ -2,9 +2,9 @@ name: CRAW
 
 on:
   schedule:
-    - cron:  "0 */6 * * *"
+    - cron:  "0 */4 * * *"
   repository_dispatch:
-    types: ['trigger_craw']
+    types: ['trigger_refresh_cdn']
 
 jobs:
   build:
@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          fetch-depth: 0
+          ref: $BRANCH
       - name: Setup ENV
         run: |
           pip install requests
@@ -39,9 +39,4 @@ jobs:
           else
             echo "Nothing to update"
           fi
-      - name: Refresh CDN Dispatch
-        uses: peter-evans/repository-dispatch@v1
-        with:
-          token: ${{ secrets.MY_GITHUB_TOKEN }}
-          repository: ngocnhan2003/ngocnhan2003.github.io
-          event-type: trigger_refresh_cdn
+
