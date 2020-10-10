@@ -34,7 +34,7 @@ jobs:
           CC=$(git rev-list init..master --count)
           let "CC++"
           VERSION="v0.$CC"
-          python versioning.py.py $VERSION
+          python versioning.py $VERSION
           git add . 
           git commit -m "deploy for $BRANCH @ $(date)"
           git push -f origin $BRANCH

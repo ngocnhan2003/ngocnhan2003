@@ -19,24 +19,6 @@ jobs:
       - name: Setup ENV
         run: |
           pip install requests
-      - name: Git config
+      - name: Refresh CDN
         run: |
-          git config --global user.email "deploy@ngocnhan2003.github.io"
-          git config --global user.name "DEPLOY BOT"
-          git checkout $BRANCH
-          git pull
-      - name: Craw insta
-        run: |
-          python crawling.py $INSTACRAWJSON
-      - name: Git job
-        run: |
-          if [ -n "$(git status -s $INSTACRAWJSON)" ]; then
-            git add $INSTACRAWJSON
-            git add assets/images
-            git commit -m "craw update for $BRANCH @ $(date)"
-            git push -f origin $BRANCH
-            echo "Pushed update"
-          else
-            echo "Nothing to update"
-          fi
-
+          python refreshing.py
