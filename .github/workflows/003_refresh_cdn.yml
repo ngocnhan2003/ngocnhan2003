@@ -1,4 +1,4 @@
-name: CRAW
+name: REFRESH
 
 on:
   schedule:
