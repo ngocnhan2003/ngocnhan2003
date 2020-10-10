@@ -5,8 +5,7 @@ import requests
 
 def refresh(url):
     try:
-        res = requests.get(url)
-        res.raise_for_status()
+        requests.get(url).raise_for_status()
         print('OK: %s' % url)
         return 1
     except:

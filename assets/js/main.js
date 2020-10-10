@@ -86,5 +86,5 @@ $(function () {
         });
     });
 
-    console.log('%cFeel free to get this: https://github.com/ngocnhan2003/ngocnhan2003.github.io', 'color: red; font-size: 15px; font-weight: bold;');
+    console.log('%cFEEL FREE TO GET THIS: https://github.com/ngocnhan2003/ngocnhan2003.github.io', 'color: red; font-size: 15px; font-weight: bold;');
 });
