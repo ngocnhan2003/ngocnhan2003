@@ -9,13 +9,10 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      BRANCH: "preview"
-      INSTACRAWJSON: "assets/files/instacraw.json"
     steps:
       - uses: actions/checkout@v2
         with:
-          ref: $BRANCH
+          ref: preview
       - name: Setup ENV
         run: |
           pip install requests
