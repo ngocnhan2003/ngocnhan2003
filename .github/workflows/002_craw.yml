@@ -29,8 +29,7 @@ jobs:
           python instacraw.py $INSTACRAWJSON
       - name: Git job
         run: |
-          CHANGED=$(git status -s $INSTACRAWJSON)
-          if [ -n "${CHANGED}" ]; then
+          if [ -n "$(git status -s $INSTACRAWJSON)" ]; then
             git add $INSTACRAWJSON
             git add assets/images
             git commit -m "craw update for $BRANCH @ $(date)"
