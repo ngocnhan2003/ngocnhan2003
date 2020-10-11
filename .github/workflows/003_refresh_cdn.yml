@@ -1,8 +1,6 @@
 name: REFRESH
 
 on:
-  schedule:
-    - cron:  "0 */4 * * *"
   repository_dispatch:
     types: ['trigger_refresh_cdn']
 
