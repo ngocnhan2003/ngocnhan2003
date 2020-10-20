@@ -67,6 +67,7 @@ $(function () {
 
     $('#get-started').click(() => {
         $('.avatar').addClass('hide-bf');
+        $('.avatar img').hide(800);
         $('.insta').show('slow');
         $('#main').animate({
             opacity: '0.0',
