@@ -1085,3 +1085,14 @@ header > h1 {
 .hide-bf:before {
     display: none !important;
 }
+
+#get-started {
+    width: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+#get-started:hover {
+    background-color: #f5cb00c7;
+}
