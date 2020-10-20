@@ -1,4 +1,4 @@
-# Nhan N. Tran
+# Nhan N. TRAN
 
 ![CI](https://github.com/ngocnhan2003/ngocnhan2003.github.io/workflows/CI/badge.svg)
 ![CRAW](https://github.com/ngocnhan2003/ngocnhan2003.github.io/workflows/CRAW/badge.svg)
