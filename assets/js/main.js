@@ -66,6 +66,10 @@ $(function () {
     load_insta();
 
     $('#get-started').click(() => {
+        setTimeout(() => {
+            $('#sound')[0].volume = 0.3;
+            $('#sound')[0].play();
+        }, 1234);
         $('.avatar').addClass('hide-bf');
         $('.avatar img').hide(800);
         $('.insta').show('slow');
