@@ -2,7 +2,7 @@ name: CRAW
 
 on:
   schedule:
-    - cron:  "0 */12 * * *"
+    - cron:  "0 0 * * *"
   repository_dispatch:
     types: ['trigger_craw']
 
