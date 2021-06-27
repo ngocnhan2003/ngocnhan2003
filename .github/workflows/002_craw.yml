@@ -2,9 +2,9 @@ name: CRAW
 
 on:
   schedule:
-    - cron:  "0 */24 * * *"
+    - cron: "0 */24 * * *"
   repository_dispatch:
-    types: ['trigger_craw']
+    types: ["trigger_craw"]
 
 jobs:
   build:
@@ -43,5 +43,5 @@ jobs:
         uses: peter-evans/repository-dispatch@v1
         with:
           token: ${{ secrets.MY_GITHUB_TOKEN }}
-          repository: ngocnhan2003/ngocnhan2003.github.io
+          repository: ngocnhan2003/profile
           event-type: trigger_refresh_cdn

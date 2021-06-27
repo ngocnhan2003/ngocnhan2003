@@ -24,12 +24,12 @@ $(function () {
     }
 
     function load_insta() {
-        let url = 'https://ngocnhan2003.github.io/assets/files/instacraw.json';
+        let url = 'https://ngocnhan2003.github.io/profile/assets/files/instacraw.json';
         axios.get(url)
             .then(function (response) {
                 for (shortcode of response.data.tag_ngocnhan2003) {
                     let link = 'https://www.instagram.com/p/' + shortcode;
-                    $('#grid').append(`<li><img src="https://i2.wp.com/ngocnhan2003.github.io/assets/images/${shortcode}?w=400"></li>`);
+                    $('#grid').append(`<li><img src="https://i2.wp.com/ngocnhan2003.github.io/profile/assets/images/${shortcode}?w=400"></li>`);
                 }
                 new AnimOnScroll(document.getElementById('grid'), {
                     minDuration: 0.4,
@@ -91,5 +91,5 @@ $(function () {
         });
     });
 
-    console.log('%cFEEL FREE TO GET THIS: https://github.com/ngocnhan2003/ngocnhan2003.github.io', 'color: red; font-size: 15px; font-weight: bold;');
+    console.log('%cFEEL FREE TO GET THIS: https://github.com/ngocnhan2003/profile', 'color: red; font-size: 15px; font-weight: bold;');
 });
