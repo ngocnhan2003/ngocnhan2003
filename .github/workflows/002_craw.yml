@@ -5,6 +5,7 @@ on:
     - cron: "0 */24 * * *"
   repository_dispatch:
     types: ["trigger_craw"]
+  workflow_dispatch:
 
 jobs:
   build:
