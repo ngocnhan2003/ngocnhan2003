@@ -9,7 +9,7 @@ class Noah(Developer):
         self.info = Info(
             name="Nhan (Noah) N. TRAN",
             company="OSD",
-            contry="Vietnam",
+            country="Vietnam",
         )
 
         self.stack = Stack(
