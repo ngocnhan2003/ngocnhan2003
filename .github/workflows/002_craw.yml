@@ -44,5 +44,5 @@ jobs:
         uses: peter-evans/repository-dispatch@v1
         with:
           token: ${{ secrets.MY_GITHUB_TOKEN }}
-          repository: ngocnhan2003/profile
+          repository: ngocnhan2003/ngocnhan2003
           event-type: trigger_refresh_cdn

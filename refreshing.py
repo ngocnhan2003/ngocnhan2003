@@ -27,6 +27,6 @@ update_file = 'assets/files/instacraw.json'
 counter = 0
 instaids = json.loads(open(update_file, 'r').read()).get('tag_ngocnhan2003')
 for instaid in instaids:
-    counter += refresh('https://i2.wp.com/ngocnhan2003.github.io/profile/assets/images/%s?w=400' % instaid)
+    counter += refresh('https://i2.wp.com/ngocnhan2003.github.io/ngocnhan2003/assets/images/%s?w=400' % instaid)
 
 print('REFRESH i2: %d/%d' % (counter, len(instaids)))

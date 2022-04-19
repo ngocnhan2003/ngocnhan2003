@@ -1,4 +1,4 @@
-name: CI
+name: BUILD
 
 on:
   push:
@@ -22,11 +22,11 @@ jobs:
           do
             minify $line -o $line
           done
-          date >> last_deploy.log
+          date >> last_build.log
       - name: Git job
         run: |
-          git config --global user.email "deploy@ngocnhan2003.github.io"
-          git config --global user.name "DEPLOY BOT"
+          git config --global user.email "${{ secrets.MY_EMAIL }}"
+          git config --global user.name "ngocnhan2003"
           git branch -l $BRANCH | grep $BRANCH && git branch -d $BRANCH
           git checkout -b $BRANCH
       - name: Rollup version and push
@@ -45,5 +45,5 @@ jobs:
         uses: peter-evans/repository-dispatch@v1
         with:
           token: ${{ secrets.MY_GITHUB_TOKEN }}
-          repository: ngocnhan2003/profile
+          repository: ngocnhan2003/ngocnhan2003
           event-type: trigger_craw

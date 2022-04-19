@@ -3,7 +3,7 @@ import sys
 
 
 update_files = ['index.html']
-repo = 'profile'
+repo = 'ngocnhan2003'
 commit_count = sys.argv[1]
 version_cdn = "https://cdn.jsdelivr.net/gh/ngocnhan2003/%s@v%s/assets/" % (repo, commit_count)
 
