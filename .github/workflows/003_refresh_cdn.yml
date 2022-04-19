@@ -3,6 +3,7 @@ name: REFRESH
 on:
   repository_dispatch:
     types: ['trigger_refresh_cdn']
+  workflow_dispatch:
 
 jobs:
   build:
