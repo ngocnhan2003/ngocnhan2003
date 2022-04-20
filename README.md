@@ -43,15 +43,17 @@ class Noah(Developer):
 <img src="https://komarev.com/ghpvc/?username=ngocnhan2003&label=Profile%20views&color=0e75b6&style=flat" alt="ngocnhan2003" /> 
 
 <!--START_SECTION:waka-->
+![Code Time](http://img.shields.io/badge/Code%20Time-257%20hrs%2057%20mins-blue)
+
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-12%20Thousand%20lines%20of%20code-blue)
 
 **I'm an Early 🐤** 
 
 ```text
 🌞 Morning    22 commits     ███░░░░░░░░░░░░░░░░░░░░░░   13.33% 
-🌆 Daytime    66 commits     ██████████░░░░░░░░░░░░░░░   40.0% 
+🌆 Daytime    65 commits     █████████░░░░░░░░░░░░░░░░   39.39% 
 🌃 Evening    48 commits     ███████░░░░░░░░░░░░░░░░░░   29.09% 
-🌙 Night      29 commits     ████░░░░░░░░░░░░░░░░░░░░░   17.58%
+🌙 Night      30 commits     ████░░░░░░░░░░░░░░░░░░░░░   18.18%
 
 ```
 📅 **I'm Most Productive on Wednesday** 
@@ -103,7 +105,7 @@ HTML                     1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 20/04/2022 17:28:18 UTC
+ Last Updated on 20/04/2022 17:30:36 UTC
 <!--END_SECTION:waka-->
 
 <hr>
