@@ -43,15 +43,15 @@ class Noah(Developer):
 <img src="https://komarev.com/ghpvc/?username=ngocnhan2003&label=Profile%20views&color=0e75b6&style=flat" alt="ngocnhan2003" /> 
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-252%20hrs%2010%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-252%20hrs%2027%20mins-blue)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-12%20Thousand%20lines%20of%20code-blue)
 
 **I'm a Night 🦉** 
 
 ```text
-🌞 Morning    17 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   10.3% 
-🌆 Daytime    63 commits     █████████░░░░░░░░░░░░░░░░   38.18% 
+🌞 Morning    18 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   10.91% 
+🌆 Daytime    62 commits     █████████░░░░░░░░░░░░░░░░   37.58% 
 🌃 Evening    53 commits     ████████░░░░░░░░░░░░░░░░░   32.12% 
 🌙 Night      32 commits     ████░░░░░░░░░░░░░░░░░░░░░   19.39%
 
@@ -105,7 +105,7 @@ HTML                     1 repo              █░░░░░░░░░░�
 
 
 
- Last Updated on 20/04/2022 01:55:22 UTC
+ Last Updated on 20/04/2022 03:43:03 UTC
 <!--END_SECTION:waka-->
 
 <hr>
