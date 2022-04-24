@@ -1,14 +1,14 @@
-name: CRAW
+name: REFRESH
 
 on:
   schedule:
     - cron: "0 0 * * *"
   repository_dispatch:
-    types: ["trigger_craw"]
+    types: ["trigger_refresh"]
   workflow_dispatch:
 
 jobs:
-  build:
+  craw:
     runs-on: ubuntu-latest
     env:
       BRANCH: "preview"
@@ -40,9 +40,15 @@ jobs:
           else
             echo "Nothing to update"
           fi
-      - name: Refresh CDN Dispatch
-        uses: peter-evans/repository-dispatch@v1
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
         with:
-          token: ${{ secrets.MY_GITHUB_TOKEN }}
-          repository: ngocnhan2003/ngocnhan2003
-          event-type: trigger_refresh_cdn
+          ref: preview
+      - name: Setup ENV
+        run: |
+          pip install requests
+      - name: Refresh CDN
+        run: |
+          python refreshing.py

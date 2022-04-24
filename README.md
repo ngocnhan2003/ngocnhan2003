@@ -113,8 +113,7 @@ HTML                     1 repo              █░░░░░░░░░░�
 
 [![README](https://github.com/ngocnhan2003/ngocnhan2003/actions/workflows/000_readme.yml/badge.svg)](https://github.com/ngocnhan2003/ngocnhan2003/actions/workflows/000_readme.yml)
 [![BUILD](https://github.com/ngocnhan2003/ngocnhan2003/actions/workflows/001_build.yml/badge.svg)](https://github.com/ngocnhan2003/ngocnhan2003/actions/workflows/001_build.yml)
-[![CRAW](https://github.com/ngocnhan2003/ngocnhan2003/actions/workflows/002_craw.yml/badge.svg)](https://github.com/ngocnhan2003/ngocnhan2003/actions/workflows/002_craw.yml)
-[![REFRESH](https://github.com/ngocnhan2003/ngocnhan2003/actions/workflows/003_refresh_cdn.yml/badge.svg)](https://github.com/ngocnhan2003/ngocnhan2003/actions/workflows/003_refresh_cdn.yml)
+[![REFRESH](https://github.com/ngocnhan2003/ngocnhan2003/actions/workflows/002_refresh.yml/badge.svg)](https://github.com/ngocnhan2003/ngocnhan2003/actions/workflows/002_refresh.yml)
 
 🔗 **Connect with me:**
 

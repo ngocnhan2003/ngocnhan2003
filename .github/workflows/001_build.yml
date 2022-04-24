@@ -2,8 +2,6 @@ name: BUILD
 
 on:
   workflow_dispatch:
-#   push:
-#     branches: [master]
 
 jobs:
   build:
@@ -47,4 +45,4 @@ jobs:
         with:
           token: ${{ secrets.MY_GITHUB_TOKEN }}
           repository: ngocnhan2003/ngocnhan2003
-          event-type: trigger_craw
+          event-type: trigger_refresh
