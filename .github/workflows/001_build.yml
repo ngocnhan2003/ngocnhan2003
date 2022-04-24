@@ -2,19 +2,25 @@ name: BUILD
 
 on:
   workflow_dispatch:
+    inputs:
+      debug:
+        default: false
+        type: boolean
 
 jobs:
   build:
     runs-on: ubuntu-latest
     env:
       BRANCH: "preview"
+      DEBUG: ${{ github.event.inputs.debug }}
     steps:
       - uses: actions/checkout@v2
         with:
-          fetch-depth: 0
+          fetch-depth: 1
       - name: Setup ENV
         run: |
           sudo apt-get install minify
+          [[ $DEBUG == "true" ]] && set -x
       - name: Start minify
         run: |
           cat minify.txt | while read line 
