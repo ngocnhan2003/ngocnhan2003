@@ -43,7 +43,7 @@ class Noah(Developer):
 <img src="https://komarev.com/ghpvc/?username=ngocnhan2003&label=Profile%20views&color=0e75b6&style=flat" alt="ngocnhan2003" /> 
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-305%20hrs%2039%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-0%20secs-blue)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-18%20Thousand%20lines%20of%20code-blue)
 
@@ -63,9 +63,9 @@ Monday       26 commits     ████░░░░░░░░░░░░░�
 Tuesday      14 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   8.38% 
 Wednesday    13 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   7.78% 
 Thursday     1 commits      ░░░░░░░░░░░░░░░░░░░░░░░░░   0.6% 
-Friday       13 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   7.78% 
+Friday       12 commits     █░░░░░░░░░░░░░░░░░░░░░░░░   7.19% 
 Saturday     46 commits     ███████░░░░░░░░░░░░░░░░░░   27.54% 
-Sunday       54 commits     ████████░░░░░░░░░░░░░░░░░   32.34%
+Sunday       55 commits     ████████░░░░░░░░░░░░░░░░░   32.93%
 
 ```
 
@@ -104,7 +104,7 @@ Vue                      2 repos             ██░░░░░░░░░�
 
 
 
- Last Updated on 22/05/2022 16:29:18 UTC
+ Last Updated on 22/05/2022 17:21:52 UTC
 <!--END_SECTION:waka-->
 
 <hr>
