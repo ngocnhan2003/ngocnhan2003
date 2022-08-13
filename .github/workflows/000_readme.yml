@@ -18,6 +18,7 @@ jobs:
           COMMIT_BY_ME: "True"
           COMMIT_USERNAME: "ngocnhan2003"
           COMMIT_EMAIL: "ngocnhan.nplus@gmail.com"
+          COMMIT_MESSAGE: "Update wakatime"
           SHOW_COMMIT: "True"
           SHOW_DAYS_OF_WEEK: "True"
           SHOW_OS: "True"
