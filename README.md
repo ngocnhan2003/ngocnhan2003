@@ -43,7 +43,7 @@ class Noah(Developer):
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-456%20hrs%2037%20mins-blue)
 
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-18%20Thousand%20lines%20of%20code-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-107-blue)
 
 **I'm an Early 🐤** 
 
@@ -101,7 +101,7 @@ Vue                      2 repos             █░░░░░░░░░░�
 
 
 
- Last Updated on 15/08/2022 03:59:32 UTC
+ Last Updated on 15/08/2022 03:59:54 UTC
 <!--END_SECTION:waka-->
 
 <hr>
