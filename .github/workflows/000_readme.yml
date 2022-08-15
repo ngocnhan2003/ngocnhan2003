@@ -11,21 +11,20 @@ jobs:
     runs-on: ubuntu-latest
     permissions: read-all
     steps:
-      - uses: anmol098/waka-readme-stats@master
+      - uses: actions/checkout@v3
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v3
         with:
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          GH_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
-#           COMMIT_BY_ME: "True"
-#           COMMIT_USERNAME: "ngocnhan2003"
-#           COMMIT_EMAIL: "ngocnhan.nplus@gmail.com"
-#           COMMIT_MESSAGE: "Update wakatime"
-          SHOW_COMMIT: "True"
-          SHOW_DAYS_OF_WEEK: "True"
-          SHOW_OS: "True"
-          SHOW_PROJECTS: "False"
-          SHOW_PROFILE_VIEWS: "False"
-          SHOW_EDITORS: "True"
-          SHOW_LANGUAGE_PER_REPO: "True"
-          SHOW_LOC_CHART: "False"
-          SHOW_LINES_OF_CODE: "True"
-          SHOW_SHORT_INFO: "False"
+          python-version: "3.9"
+      - name: Install dependencies
+        run: |
+          python3.9 -m pip install --upgrade pip
+          python3.9 -m pip install -r waka/requirements.txt
+      - name: Collect Wakatime and Update Readme
+        env:
+          INPUT_WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          INPUT_GH_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+          INPUT_COMMIT_USERNAME: "ngocnhan2003"
+          INPUT_COMMIT_EMAIL: "ngocnhan.nplus@gmail.com"
+        run: |
+          python waka/main.py
