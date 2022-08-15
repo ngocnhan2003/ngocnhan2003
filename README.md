@@ -41,15 +41,15 @@ class Noah(Developer):
 <img src="https://komarev.com/ghpvc/?username=ngocnhan2003&label=Profile%20views&color=0e75b6&style=flat" alt="ngocnhan2003" /> 
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-456%20hrs%2030%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-456%20hrs%2037%20mins-blue)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-107-blue)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-18%20Thousand%20lines%20of%20code-blue)
 
 **I'm an Early 🐤** 
 
 ```text
-🌞 Morning    34 commits     █████░░░░░░░░░░░░░░░░░░░░   20.36% 
-🌆 Daytime    59 commits     ████████░░░░░░░░░░░░░░░░░   35.33% 
+🌞 Morning    35 commits     █████░░░░░░░░░░░░░░░░░░░░   20.96% 
+🌆 Daytime    58 commits     ████████░░░░░░░░░░░░░░░░░   34.73% 
 🌃 Evening    36 commits     █████░░░░░░░░░░░░░░░░░░░░   21.56% 
 🌙 Night      38 commits     █████░░░░░░░░░░░░░░░░░░░░   22.75%
 
@@ -57,9 +57,9 @@ class Noah(Developer):
 📅 **I'm Most Productive on Monday** 
 
 ```text
-Monday       28 commits     ████░░░░░░░░░░░░░░░░░░░░░   16.77% 
+Monday       29 commits     ████░░░░░░░░░░░░░░░░░░░░░   17.37% 
 Tuesday      15 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   8.98% 
-Wednesday    23 commits     ███░░░░░░░░░░░░░░░░░░░░░░   13.77% 
+Wednesday    22 commits     ███░░░░░░░░░░░░░░░░░░░░░░   13.17% 
 Thursday     26 commits     ████░░░░░░░░░░░░░░░░░░░░░   15.57% 
 Friday       23 commits     ███░░░░░░░░░░░░░░░░░░░░░░   13.77% 
 Saturday     24 commits     ███░░░░░░░░░░░░░░░░░░░░░░   14.37% 
@@ -101,7 +101,7 @@ Vue                      2 repos             █░░░░░░░░░░�
 
 
 
- Last Updated on 15/08/2022 03:52:13 UTC
+ Last Updated on 15/08/2022 03:59:32 UTC
 <!--END_SECTION:waka-->
 
 <hr>
