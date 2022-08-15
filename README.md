@@ -41,7 +41,7 @@ class Noah(Developer):
 <img src="https://komarev.com/ghpvc/?username=ngocnhan2003&label=Profile%20views&color=0e75b6&style=flat" alt="ngocnhan2003" /> 
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-456%20hrs%2025%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-456%20hrs%2030%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-107-blue)
 
@@ -101,7 +101,7 @@ Vue                      2 repos             █░░░░░░░░░░�
 
 
 
- Last Updated on 15/08/2022 03:48:12 UTC
+ Last Updated on 15/08/2022 03:52:13 UTC
 <!--END_SECTION:waka-->
 
 <hr>
