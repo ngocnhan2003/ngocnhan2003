@@ -50,6 +50,7 @@ commit_username = os.getenv("INPUT_COMMIT_USERNAME", "")
 commit_email = os.getenv("INPUT_COMMIT_EMAIL", "")
 show_total_code_time = os.getenv("INPUT_SHOW_TOTAL_CODE_TIME", "True")
 symbol_version = os.getenv("INPUT_SYMBOL_VERSION", "1").strip()
+time_zone = os.getenv("INPUT_TIME_ZONE", "+7")
 show_waka_stats = "y"
 # The GraphQL query to get commit data.
 userInfoQuery = """
@@ -581,9 +582,9 @@ def get_stats(github):
         )
 
     if show_updated_date.lower() in truthy:
-        now = datetime.datetime.utcnow()
+        now = datetime.datetime.utcnow() + datetime.timedelta(hours=float(time_zone))
         d1 = now.strftime(updated_date_format)
-        stats = stats + "\n Last Updated on " + d1 + " UTC"
+        stats = stats + "\n Last Updated on " + d1 + " UTC" + time_zone
 
     return stats
 
