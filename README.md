@@ -104,7 +104,7 @@ Vue                      2 repos             █░░░░░░░░░░�
 
 <hr>
 
-[![README](https://github.com/ngocnhan2003/ngocnhan2003/actions/workflows/000_readme.yml/badge.svg)](https://github.com/ngocnhan2003/ngocnhan2003/actions/workflows/000_readme.yml)
+[![README](https://github.com/ngocnhan2003/waka/actions/workflows/update_time.yml/badge.svg)](https://github.com/ngocnhan2003/waka/actions/workflows/update_time.yml)
 [![BUILD](https://github.com/ngocnhan2003/ngocnhan2003/actions/workflows/001_build.yml/badge.svg)](https://github.com/ngocnhan2003/ngocnhan2003/actions/workflows/001_build.yml)
 [![REFRESH](https://github.com/ngocnhan2003/ngocnhan2003/actions/workflows/002_refresh.yml/badge.svg)](https://github.com/ngocnhan2003/ngocnhan2003/actions/workflows/002_refresh.yml)
 
