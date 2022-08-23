@@ -13,13 +13,18 @@ jobs:
     env:
       BRANCH: "preview"
       INSTACRAWJSON: "assets/files/instacraw.json"
+    permissions: write-all
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      - name: Setup ENV
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.9"
+      - name: Install dependencies
         run: |
-          pip install requests
+          python3.9 -m pip install requests
       - name: Git config
         run: |
           git config --global user.email "${{ secrets.MY_EMAIL }}"
@@ -28,7 +33,7 @@ jobs:
           git pull
       - name: Craw insta
         run: |
-          python crawling.py $INSTACRAWJSON
+          python3.9 crawling.py $INSTACRAWJSON
       - name: Git job
         run: |
           if [ -n "$(git status -s $INSTACRAWJSON)" ]; then
@@ -43,7 +48,7 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           ref: preview
       - name: Setup ENV
