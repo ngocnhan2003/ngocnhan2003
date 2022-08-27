@@ -115,5 +115,5 @@ Vue                      2 repos             █░░░░░░░░░░�
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝“In Data Science if you want to help individuals, be empathetic and ask questions; that way, you can begin to understand their journey, too.”— Damian Duffy Mingle❞</i>
+<i>❝Computers have memory or RAM, which stores items on the computer when they’re not in use. The processor stores everything your computer needs to run.❞</i>
 <!--ENDS_HERE_QUOTE_README-->
