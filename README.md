@@ -40,6 +40,13 @@ class Noah(Developer):
 ```
 <img src="https://komarev.com/ghpvc/?username=ngocnhan2003&label=Profile%20views&color=0e75b6&style=flat" alt="ngocnhan2003" /> 
 
+[![BUILD](https://github.com/ngocnhan2003/ngocnhan2003/actions/workflows/001_build.yml/badge.svg)](https://github.com/ngocnhan2003/ngocnhan2003/actions/workflows/001_build.yml)
+[![REFRESH](https://github.com/ngocnhan2003/ngocnhan2003/actions/workflows/002_refresh.yml/badge.svg)](https://github.com/ngocnhan2003/ngocnhan2003/actions/workflows/002_refresh.yml)
+
+<details> 
+  <summary><b>📊 Wakatime Stats</b></summary>
+  <br>
+  
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-494%20hrs%2018%20mins-blue)
 
@@ -102,11 +109,7 @@ Vue                      2 repos             █░░░░░░░░░░�
 
  Last Updated on 13/09/2022 13:51:21 UTC+7
 <!--END_SECTION:waka-->
-
-<hr>
-
-[![BUILD](https://github.com/ngocnhan2003/ngocnhan2003/actions/workflows/001_build.yml/badge.svg)](https://github.com/ngocnhan2003/ngocnhan2003/actions/workflows/001_build.yml)
-[![REFRESH](https://github.com/ngocnhan2003/ngocnhan2003/actions/workflows/002_refresh.yml/badge.svg)](https://github.com/ngocnhan2003/ngocnhan2003/actions/workflows/002_refresh.yml)
+</details>
 
 🔗 **Connect with me:**
 
