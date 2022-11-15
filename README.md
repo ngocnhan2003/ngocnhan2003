@@ -118,5 +118,5 @@ Vue                      2 repos             █░░░░░░░░░░�
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝According to a survey, most of the apps in your android device leaks your data, so be aware.❞</i>
+<i>❝“There are only two things wrong with C++:  The initial concept and the implementation.”— Bertrand Meyer   ❞</i>
 <!--ENDS_HERE_QUOTE_README-->
