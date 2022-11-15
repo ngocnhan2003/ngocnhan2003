@@ -118,5 +118,5 @@ Vue                      2 repos             █░░░░░░░░░░�
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝“Hoaxes use weaknesses in human behavior to ensure they are replicated and distributed.  In other words, hoaxes prey on the Human Operating System.”— Stewart Kirkpatrick   ❞</i>
+<i>❝Russians made a computer that ran on water in the mid of 1936.❞</i>
 <!--ENDS_HERE_QUOTE_README-->
