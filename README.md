@@ -118,5 +118,5 @@ Vue                      2 repos             █░░░░░░░░░░�
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝The Ultra NVidia GeForce 6800 video card was built with 222 million transistors and considered among the best todate.❞</i>
+<i>❝Sony released a kit that allows PS2s (Linux for PlayStation 2) to be used as a personal computer.❞</i>
 <!--ENDS_HERE_QUOTE_README-->
