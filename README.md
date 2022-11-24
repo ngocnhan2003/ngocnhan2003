@@ -118,5 +118,5 @@ Vue                      2 repos             █░░░░░░░░░░�
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝“Software is like entropy: It is difficult to grasp, weighs nothing, and obeys the Second Law of Thermodynamics; i.e., it always increases.”— Norman Augustine   ❞</i>
+<i>❝“A computer once beat me at chess, but it was no match for me at kick boxing.”— Emo Philips  ❞</i>
 <!--ENDS_HERE_QUOTE_README-->
