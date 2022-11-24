@@ -118,5 +118,5 @@ Vue                      2 repos             █░░░░░░░░░░�
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝“Programming can be fun, so can cryptography; however they should not be combined.”— Kreitzberg and Shneiderman  ❞</i>
+<i>❝There are around  3.58 billion internet users worldwide as of 2017 according to statista.❞</i>
 <!--ENDS_HERE_QUOTE_README-->
