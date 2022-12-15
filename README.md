@@ -113,5 +113,5 @@ Vue                      2 repos             █░░░░░░░░░░�
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝Only about 10% of the world’s currency is physical money, the rest only exists on computers.❞</i>
+<i>❝“The best way to get accurate information on Usenet is to post something wrong and wait for corrections.”— Matthew Austern   ❞</i>
 <!--ENDS_HERE_QUOTE_README-->
