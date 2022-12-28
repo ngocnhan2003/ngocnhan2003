@@ -113,5 +113,5 @@ Vue                      2 repos             █░░░░░░░░░░�
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝“As data scientists, our job is to extract signal from noise.”— Daniel Tunkelang❞</i>
+<i>❝“The greatest enemy of knowledge is not ignorance, it is the illusion of knowledge.”— Stephen Hawking   ❞</i>
 <!--ENDS_HERE_QUOTE_README-->
