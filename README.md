@@ -114,5 +114,5 @@ Vue                      2 repos             █░░░░░░░░░░�
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝Around 50% of all Wikipedia vandalism is caught by a single computer program with more than 90% accuracy.❞</i>
+<i>❝Web Arx security says more than 20,000 websites are hacked each day and most from the US❞</i>
 <!--ENDS_HERE_QUOTE_README-->
