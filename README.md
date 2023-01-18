@@ -113,5 +113,5 @@ Vue                      2 repos             █░░░░░░░░░░�
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝Steve Jobs wanted to hide a man wearing a fedora on the first Mac. Dubbed “Mr. Macintosh,” the character would appear after opening the menu bar several thousand times then quickly disappear, leaving users to question their sanity. The idea was scrapped due to Mac’s paltry 128KB of RAM.❞</i>
+<i>❝An average person normally blinks 20 times a minute, but when using a computer he/she blinks only 7 times a minute.❞</i>
 <!--ENDS_HERE_QUOTE_README-->
