@@ -113,5 +113,5 @@ Vue                      2 repos             █░░░░░░░░░░�
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝“When you are stuck in a traffic jam with a Porsche, all you do is burn more gas in idle.  Scalability is about building wider roads, not about building faster cars.”— Steve Swartz   ❞</i>
+<i>❝Windows 95 was the second most installed piece of software on computers in 1995, video game DOOM was first.❞</i>
 <!--ENDS_HERE_QUOTE_README-->
