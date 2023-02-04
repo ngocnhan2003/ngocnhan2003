@@ -113,5 +113,5 @@ Vue                      2 repos             █░░░░░░░░░░�
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝“A program is never less than 90% complete, and never more than 95% complete.”— Terry Baker   ❞</i>
+<i>❝A 15 year old hacked NASA computers and caused a 21-day shutdown of their computers.❞</i>
 <!--ENDS_HERE_QUOTE_README-->
