@@ -113,5 +113,5 @@ Vue                      2 repos             █░░░░░░░░░░�
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝“XML is not a language in the sense of a programming language any more than sketches on a napkin are a language.”— Charles Simonyi   ❞</i>
+<i>❝The first bug in a computer was a dead moth found shorting a relay in the Harvard Mark II computer in 1947❞</i>
 <!--ENDS_HERE_QUOTE_README-->
