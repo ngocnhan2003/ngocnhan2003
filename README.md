@@ -38,10 +38,11 @@ class Noah(Developer):
             ],
         )
 ```
-<img src="https://komarev.com/ghpvc/?username=ngocnhan2003&label=Profile%20views&color=0e75b6&style=flat" alt="ngocnhan2003" /> 
 
-[![BUILD](https://github.com/ngocnhan2003/ngocnhan2003/actions/workflows/001_build.yml/badge.svg)](https://github.com/ngocnhan2003/ngocnhan2003/actions/workflows/001_build.yml)
-[![REFRESH](https://github.com/ngocnhan2003/ngocnhan2003/actions/workflows/002_refresh.yml/badge.svg)](https://github.com/ngocnhan2003/ngocnhan2003/actions/workflows/002_refresh.yml)
+📝 **Recent posts:**
+
+<!--START_SECTION:feed-->
+<!--END_SECTION:feed-->
 
 <details> 
   <summary><b>📊 Wakatime Stats</b></summary>
@@ -115,3 +116,10 @@ Vue                      2 repos             █░░░░░░░░░░�
 <!--STARTS_HERE_QUOTE_README-->
 <i>❝The first-ever registered domain name was Symbolics.com for free.❞</i>
 <!--ENDS_HERE_QUOTE_README-->
+
+
+<img src="https://komarev.com/ghpvc/?username=ngocnhan2003&label=Profile%20views&color=0e75b6&style=flat" alt="ngocnhan2003" /> 
+
+[![BUILD](https://github.com/ngocnhan2003/ngocnhan2003/actions/workflows/001_build.yml/badge.svg)](https://github.com/ngocnhan2003/ngocnhan2003/actions/workflows/001_build.yml)
+[![REFRESH](https://github.com/ngocnhan2003/ngocnhan2003/actions/workflows/002_refresh.yml/badge.svg)](https://github.com/ngocnhan2003/ngocnhan2003/actions/workflows/002_refresh.yml)
+
