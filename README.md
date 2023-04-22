@@ -48,69 +48,16 @@ class Noah(Developer):
 * [Ready to take your Python skills to the next level?](https:&#x2F;&#x2F;ngocnhan2003.github.io&#x2F;blog&#x2F;2023&#x2F;04&#x2F;21&#x2F;ready-to-take-your-python-skil&#x2F;)
 <!--END_SECTION:feed-->
 
+<!---
 
 <details> 
   <summary><b>📊 Wakatime Stats</b></summary>
   <br>
   
-<!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-664%20hrs%201%20min-blue)
-
-**I'm a Night 🦉** 
-
-```text
-🌞 Morning    141 commits    █████░░░░░░░░░░░░░░░░░░░░   19.83% 
-🌆 Daytime    75 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   10.55% 
-🌃 Evening    418 commits    ██████████████░░░░░░░░░░░   58.79% 
-🌙 Night      77 commits     ██░░░░░░░░░░░░░░░░░░░░░░░   10.83%
-
-```
-📅 **I'm Most Productive on Saturday** 
-
-```text
-Monday       150 commits    █████░░░░░░░░░░░░░░░░░░░░   21.1% 
-Tuesday      28 commits     █░░░░░░░░░░░░░░░░░░░░░░░░   3.94% 
-Wednesday    32 commits     █░░░░░░░░░░░░░░░░░░░░░░░░   4.5% 
-Thursday     4 commits      ░░░░░░░░░░░░░░░░░░░░░░░░░   0.56% 
-Friday       26 commits     █░░░░░░░░░░░░░░░░░░░░░░░░   3.66% 
-Saturday     297 commits    ██████████░░░░░░░░░░░░░░░   41.77% 
-Sunday       174 commits    ██████░░░░░░░░░░░░░░░░░░░   24.47%
-
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-⌚︎ Time Zone: Asia/Ho_Chi_Minh
-
-💬 Programming Languages: 
-No Activity Tracked This Week
-
-🔥 Editors: 
-No Activity Tracked This Week
-
-💻 Operating System: 
-No Activity Tracked This Week
-
-```
-
-**I Mostly Code in Python** 
-
-```text
-Python                   16 repos            ███████████░░░░░░░░░░░░░░   47.06% 
-JavaScript               6 repos             ████░░░░░░░░░░░░░░░░░░░░░   17.65% 
-TypeScript               2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   5.88% 
-Kotlin                   2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   5.88% 
-Vue                      2 repos             █░░░░░░░░░░░░░░░░░░░░░░░░   5.88%
-
-```
-
-
-
- Last Updated on 22/04/2023 11:35:43 UTC+7
-<!--END_SECTION:waka-->
+<!--START_SECTION:waka- ->
+<!--END_SECTION:waka- ->
 </details>
+--->
 
 🔗 **Connect with me:**
 
