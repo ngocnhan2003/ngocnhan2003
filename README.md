@@ -41,11 +41,11 @@ class Noah(Developer):
 
 📝 **Recent posts:**
 <!--START_SECTION:feed-->
-* [Merge Dictionaries in Python: 8 Standard Methods (with code)](https:&#x2F;&#x2F;ngocnhan2003.github.io&#x2F;blog&#x2F;2023&#x2F;04&#x2F;22&#x2F;merge-dictionaries-in-python-8&#x2F;)
-* [Python Code Quality: Tools &amp;amp; Best Practices](https:&#x2F;&#x2F;ngocnhan2003.github.io&#x2F;blog&#x2F;2023&#x2F;04&#x2F;22&#x2F;python-code-quality-tools-best&#x2F;)
-* [7 Python Tools All Data Scientists Should Know How to Use](https:&#x2F;&#x2F;ngocnhan2003.github.io&#x2F;blog&#x2F;2023&#x2F;04&#x2F;21&#x2F;7-python-tools-all-data-scient&#x2F;)
-* [Python 3.12 Preview: Ever Better Error Messages](https:&#x2F;&#x2F;ngocnhan2003.github.io&#x2F;blog&#x2F;2023&#x2F;04&#x2F;21&#x2F;python-3-12-preview-ever-bette&#x2F;)
-* [Ready to take your Python skills to the next level?](https:&#x2F;&#x2F;ngocnhan2003.github.io&#x2F;blog&#x2F;2023&#x2F;04&#x2F;21&#x2F;ready-to-take-your-python-skil&#x2F;)
+* [: Merge Dictionaries in Python: 8 Standard Methods (with code)](https:&#x2F;&#x2F;ngocnhan2003.github.io&#x2F;blog&#x2F;2023&#x2F;04&#x2F;22&#x2F;merge-dictionaries-in-python-8&#x2F;))
+* [: Python Code Quality: Tools &amp;amp; Best Practices](https:&#x2F;&#x2F;ngocnhan2003.github.io&#x2F;blog&#x2F;2023&#x2F;04&#x2F;22&#x2F;python-code-quality-tools-best&#x2F;))
+* [: 7 Python Tools All Data Scientists Should Know How to Use](https:&#x2F;&#x2F;ngocnhan2003.github.io&#x2F;blog&#x2F;2023&#x2F;04&#x2F;21&#x2F;7-python-tools-all-data-scient&#x2F;))
+* [: Python 3.12 Preview: Ever Better Error Messages](https:&#x2F;&#x2F;ngocnhan2003.github.io&#x2F;blog&#x2F;2023&#x2F;04&#x2F;21&#x2F;python-3-12-preview-ever-bette&#x2F;))
+* [: Ready to take your Python skills to the next level?](https:&#x2F;&#x2F;ngocnhan2003.github.io&#x2F;blog&#x2F;2023&#x2F;04&#x2F;21&#x2F;ready-to-take-your-python-skil&#x2F;))
 <!--END_SECTION:feed-->
 
 <!---
