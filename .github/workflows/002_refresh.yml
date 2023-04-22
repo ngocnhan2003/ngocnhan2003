@@ -29,7 +29,7 @@ jobs:
         run: |
           git config --global user.email "${{ secrets.MY_EMAIL }}"
           git config --global user.name "ngocnhan2003"
-          git checkout $BRANCH
+          # git checkout $BRANCH
           git pull
       - name: Craw insta
         run: |
