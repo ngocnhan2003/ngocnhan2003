@@ -46,5 +46,4 @@ except:
 if changed:
     print('write %d post to file: %s' % (len(result), instacrawjson))
     open(instacrawjson, 'w').write(json.dumps({'tag_%s' % craw_tag : result}))
-
-print('done')
+    print('done')
