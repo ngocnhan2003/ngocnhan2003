@@ -1,6 +1,8 @@
 import sys
 import json
 import requests
+import traceback
+
 
 craw_tag='ngocnhan2003'
 
@@ -38,7 +40,8 @@ try:
         else:
             break
 except:
-    print('loaded')
+    traceback.print_exc()
+    # print('loaded')
 
 if changed:
     print('write %d post to file: %s' % (len(result), instacrawjson))
