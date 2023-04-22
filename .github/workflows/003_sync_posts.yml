@@ -14,3 +14,4 @@ jobs:
         with:
           feed-url: https://ngocnhan2003.github.io/feed.xml
           readme-section: feed
+          template: "* [{{ published }}: {{ title }}]({{ link }}))"
