@@ -2,8 +2,7 @@ name: Sync posts
 
 on:
   schedule:
-    # Once a day at 8 AM
-    - cron: 0 8 * * *
+    - cron: "0 * * * *"
   workflow_dispatch:
 
 jobs:
@@ -14,4 +13,3 @@ jobs:
         with:
           feed-url: https://ngocnhan2003.github.io/feed.xml
           readme-section: feed
-          template: "> {{ excerpt }}\n\n[Read more!]({{ url }})"
