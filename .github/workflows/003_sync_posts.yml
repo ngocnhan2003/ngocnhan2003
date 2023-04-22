@@ -1,0 +1,15 @@
+name: Sync posts
+
+on:
+  schedule:
+    # Once a day at 8 AM
+    - cron: 0 8 * * *
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: JasonEtco/rss-to-readme@v1
+        with:
+          feed-url: https://ngocnhan2003.github.io/feed.xml
+          readme-section: feed
