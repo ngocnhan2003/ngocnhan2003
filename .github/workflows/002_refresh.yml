@@ -1,4 +1,4 @@
-name: REFRESH
+name: Refresh DNS
 
 on:
   schedule:
