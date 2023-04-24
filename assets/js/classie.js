@@ -6,36 +6,4 @@
  * classie.add( elem, 'my-new-class' )
  * classie.remove( elem, 'my-unwanted-class' )
  * classie.toggle( elem, 'my-class' )
- */
-!(function (window) {
-    "use strict";
-    function classReg(className) {
-        return new RegExp("(^|\\s+)" + className + "(\\s+|$)");
-    }
-    var hasClass, addClass, removeClass;
-    function toggleClass(elem, c) {
-        var fn;
-        (hasClass(elem, c) ? removeClass : addClass)(elem, c);
-    }
-    "classList" in document.documentElement
-        ? ((hasClass = function (elem, c) {
-              return elem.classList.contains(c);
-          }),
-          (addClass = function (elem, c) {
-              elem.classList.add(c);
-          }),
-          (removeClass = function (elem, c) {
-              elem.classList.remove(c);
-          }))
-        : ((hasClass = function (elem, c) {
-              return classReg(c).test(elem.className);
-          }),
-          (addClass = function (elem, c) {
-              hasClass(elem, c) || (elem.className = elem.className + " " + c);
-          }),
-          (removeClass = function (elem, c) {
-              elem.className = elem.className.replace(classReg(c), " ");
-          }));
-    var classie = { hasClass: hasClass, addClass: addClass, removeClass: removeClass, toggleClass: toggleClass, has: hasClass, add: addClass, remove: removeClass, toggle: toggleClass };
-    "function" == typeof define && define.amd ? define(classie) : (window.classie = classie);
-})(window);
+ */!function(g){"use strict";var a,b,c,d;function e(a){return new RegExp("(^|\\s+)"+a+"(\\s+|$)")}function f(d,e){var f;(a(d,e)?c:b)(d,e)}"classList"in document.documentElement?(a=function(a,b){return a.classList.contains(b)},b=function(a,b){a.classList.add(b)},c=function(a,b){a.classList.remove(b)}):(a=function(a,b){return e(b).test(a.className)},b=function(b,c){a(b,c)||(b.className=b.className+" "+c)},c=function(a,b){a.className=a.className.replace(e(b)," ")}),d={hasClass:a,addClass:b,removeClass:c,toggleClass:f,has:a,add:b,remove:c,toggle:f},"function"==typeof define&&define.amd?define(d):g.classie=d}(window)
