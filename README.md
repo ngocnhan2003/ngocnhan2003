@@ -72,6 +72,7 @@ class Noah(Developer):
 
 <img src="https://komarev.com/ghpvc/?username=ngocnhan2003&label=Profile%20views&color=0e75b6&style=flat" alt="ngocnhan2003" /> 
 
-[![BUILD](https://github.com/ngocnhan2003/ngocnhan2003/actions/workflows/001_build.yml/badge.svg)](https://github.com/ngocnhan2003/ngocnhan2003/actions/workflows/001_build.yml)
-[![REFRESH](https://github.com/ngocnhan2003/ngocnhan2003/actions/workflows/002_refresh.yml/badge.svg)](https://github.com/ngocnhan2003/ngocnhan2003/actions/workflows/002_refresh.yml)
+[![Build](https://github.com/ngocnhan2003/ngocnhan2003/actions/workflows/001_build.yml/badge.svg)](https://github.com/ngocnhan2003/ngocnhan2003/actions/workflows/001_build.yml)
+[![Refresh DNS](https://github.com/ngocnhan2003/ngocnhan2003/actions/workflows/002_refresh.yml/badge.svg)](https://github.com/ngocnhan2003/ngocnhan2003/actions/workflows/002_refresh.yml)
+[![Refresh DNS](https://github.com/ngocnhan2003/ngocnhan2003/actions/workflows/003_sync_posts.yml/badge.svg)](https://github.com/ngocnhan2003/ngocnhan2003/actions/workflows/003_sync_posts.yml)
 
