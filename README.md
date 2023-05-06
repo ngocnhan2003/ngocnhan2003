@@ -70,7 +70,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝“Today, most software exists, not to solve a problem, but to interface with other software.”— IO Angell   ❞</i>
+<i>❝“Don’t document the problem, fix it.”— Atli Björgvin Oddsson   ❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
