@@ -70,7 +70,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝A 15 year old hacked NASA computers and caused a 21-day shutdown of their computers.❞</i>
+<i>❝“Code generation, like drinking alcohol, is good in moderation.”— Alex Lowe   ❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
