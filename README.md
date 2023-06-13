@@ -74,7 +74,7 @@ class Noah(Developer):
 <!--ENDS_HERE_QUOTE_README-->
 
 
-<img src="https://komarev.com/ghpvc/?username=ngocnhan2003&label=Profile%20views&color=0e75b6&style=flat" alt="ngocnhan2003" /> 
+[![committers.top badge](https://user-badge.committers.top/vietnam/ngocnhan2003.svg)](https://user-badge.committers.top/vietnam/ngocnhan2003) <img src="https://komarev.com/ghpvc/?username=ngocnhan2003&label=Profile%20views&color=0e75b6&style=flat" alt="ngocnhan2003" /> 
 
 [![Build](https://github.com/ngocnhan2003/ngocnhan2003/actions/workflows/001_build.yml/badge.svg)](https://github.com/ngocnhan2003/ngocnhan2003/actions/workflows/001_build.yml)
 [![Refresh DNS](https://github.com/ngocnhan2003/ngocnhan2003/actions/workflows/002_refresh.yml/badge.svg)](https://github.com/ngocnhan2003/ngocnhan2003/actions/workflows/002_refresh.yml)
