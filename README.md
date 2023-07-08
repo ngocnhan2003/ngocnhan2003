@@ -70,7 +70,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝“Before man reaches the moon, mail will be delivered within hours from New York to California, to Britain, to India or Australia.”— Arthur Summerfield, 1959, United States Post❞</i>
+<i>❝In Windows 98, minimized windows are actually moved far away outside the average monitor’s resolution.❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
