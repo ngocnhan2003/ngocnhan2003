@@ -70,7 +70,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝“In 2031, lawyers will be commonly a part of most development teams.”— Grady Booch   ❞</i>
+<i>❝The house where Bill Gates lives, was designed using a Macintosh computer.❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
