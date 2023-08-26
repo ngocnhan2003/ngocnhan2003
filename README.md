@@ -70,7 +70,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝The first-ever registered domain name was Symbolics.com for free.❞</i>
+<i>❝“I do not fear computers. I fear lack of them.”— Isaac Asimov  ❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
