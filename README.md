@@ -70,7 +70,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝The password for the computer controls of nuclear-tipped missiles of the U.S was 00000000 for eight years.❞</i>
+<i>❝“Today, most software exists, not to solve a problem, but to interface with other software.”— IO Angell   ❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
