@@ -70,7 +70,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝“The greatest enemy of knowledge is not ignorance, it is the illusion of knowledge.”— Stephen Hawking   ❞</i>
+<i>❝“The world is one big data problem.”— Andrew McAfee❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
