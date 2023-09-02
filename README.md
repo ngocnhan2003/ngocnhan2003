@@ -70,7 +70,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝“All parts should go together without forcing.  You must remember that the parts you are reassembling were disassembled by you.  Therefore, if you can’t get them together again, there must be a reason.  By all means, do not use a hammer.”— IBM Manual, 1925  ❞</i>
+<i>❝The first Apple computer ever made by Steve Jobs and Steve Wozniak was made from old parts they collected for free from their staff!❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
