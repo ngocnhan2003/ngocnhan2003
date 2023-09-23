@@ -70,7 +70,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝“Real knowledge is to know the extent of one’s ignorance.”— Confucius   ❞</i>
+<i>❝“If you think technology can solve your security problems, then you don’t understand the problems and you don’t understand the technology.”— Bruce Schneier  ❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
