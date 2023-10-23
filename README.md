@@ -70,7 +70,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝elgoog.im (Google spelled backwards) is a mirrored website of Google Search with horizontally flipped search results, also known as a “Google mirror”. An unofficial elgooG website was created by All Too Flat “for fun”, which started to gain popularity in 2002❞</i>
+<i>❝“Less than 10% of the code has to do with the ostensible purpose of the system; the rest deals with input-output, data validation, data structure maintenance, and other housekeeping.”— Mary Shaw   ❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
