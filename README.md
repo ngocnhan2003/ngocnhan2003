@@ -70,7 +70,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝“Java is the most distressing thing to hit computing since MS-DOS.”— Alan Kay  ❞</i>
+<i>❝“The best way to predict the future is to implement it.”— David Heinemeier Hansson   ❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
