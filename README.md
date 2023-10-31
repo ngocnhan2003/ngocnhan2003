@@ -70,7 +70,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝“Programs must be written for people to read, and only incidentally for machines to execute.”— Abelson and Sussman   ❞</i>
+<i>❝“It’s better to wait for a productive programmer to become available than it is to wait for the first available programmer to become productive.”— Steve McConnell❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
