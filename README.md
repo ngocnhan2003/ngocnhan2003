@@ -70,7 +70,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝CAPTCHA is an acronym for “Completely Automated Public Turing test to tell Computers and Humans Apart”❞</i>
+<i>❝“There’s no obfuscated Perl contest because it’s pointless.”— Jeff Polk   ❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
