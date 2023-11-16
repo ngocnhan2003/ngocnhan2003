@@ -70,7 +70,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝“The greatest enemy of knowledge is not ignorance, it is the illusion of knowledge.”— Stephen Hawking   ❞</i>
+<i>❝A 15 year old hacked NASA computers and caused a 21-day shutdown of their computers.❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
