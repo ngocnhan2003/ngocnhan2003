@@ -70,7 +70,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝“If people never did silly things, nothing intelligent would ever get done.”— Ludwig Wittgenstein   ❞</i>
+<i>❝“Low-level programming is good for the programmer’s soul.”— John Carmack   ❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
