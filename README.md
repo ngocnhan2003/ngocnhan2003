@@ -70,7 +70,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝“The computer was born to solve problems that did not exist before.”— Bill Gates    ❞</i>
+<i>❝“In the future, computers may weigh no more than 1.5 tonnes.”— Popular mechanics, 1949   ❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
