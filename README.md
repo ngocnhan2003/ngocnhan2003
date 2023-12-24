@@ -70,7 +70,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝The original Halo was 3rd person and designed for Mac. In 2000 Microsoft bought Bungie and made it an exclusive for the original Xbox.❞</i>
+<i>❝Lenovo stands for ‘new legend’. ‘Le’ for legend, and ‘novo’ stands for new.❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
