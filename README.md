@@ -70,7 +70,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝TYPEWRITER is the longest word that you can write using the letters only on one row of the keyboard of your computer.❞</i>
+<i>❝The first webcam was used at Cambridge University. Its purpose was to monitor a coffee maker so they didn’t waste trips to an empty pot.❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
