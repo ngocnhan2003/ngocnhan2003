@@ -70,7 +70,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝“It has been discovered that C++ provides a remarkable facility for concealing the trivial details of a program — such as where its bugs are.”— David Keppel   ❞</i>
+<i>❝“Program testing can be a very effective way to show the presence of bugs, but is hopelessly inadequate for showing their absence.”— Edsger Dijkstra   ❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
