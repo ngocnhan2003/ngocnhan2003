@@ -70,7 +70,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝“From a programmer’s point of view, the user is a peripheral that types when you issue a read request.”— P. Williams   ❞</i>
+<i>❝“Where is the ‘any’ key?”— Homer Simpson, in response to the message, “Press any key”   ❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
