@@ -70,7 +70,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝“Maybe stories are just data with a soul.”— Brené Brown❞</i>
+<i>❝“The great thing about predictions is that you can be wrong.”— Chris Wiggins❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
