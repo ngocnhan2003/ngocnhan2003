@@ -70,7 +70,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝During the production of Toy Story 2, Pixar accidentally deleted the entire movie from its servers. The movie was saved by an employee, a new mother, who worked from home and had the data saved on her personal computer.❞</i>
+<i>❝“Today, most software exists, not to solve a problem, but to interface with other software.”— IO Angell   ❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
