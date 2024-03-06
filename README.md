@@ -70,7 +70,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝The first ever hard disk drive was made in 1979, and could hold only 5MB of data.❞</i>
+<i>❝“In a software project team of 10, there are probably 3 people who produce enough defects to make them net negative producers.”— Gordon Schulmeyer   ❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
