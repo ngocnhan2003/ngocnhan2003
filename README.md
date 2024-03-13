@@ -70,7 +70,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝In 2009, computer scientists created a system that composes a realistic picture from a simple freehand sketch, pulling photos from the internet: Sketch2Photo.❞</i>
+<i>❝“As a rule, software systems do not work well until they have been used, and have failed repeatedly, in real applications.”— Dave Parnas   ❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
