@@ -70,7 +70,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝The first-ever registered domain name was Symbolics.com for free.❞</i>
+<i>❝“Data levels all arguments.”— Anthony W. Richardson❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
