@@ -70,7 +70,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝“Data levels all arguments.”— Anthony W. Richardson❞</i>
+<i>❝The original name of Windows was Interface Manager.❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
