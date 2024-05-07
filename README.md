@@ -70,7 +70,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝According to a survey, most of the apps in your android device leaks your data, so be aware.❞</i>
+<i>❝“Hoaxes use weaknesses in human behavior to ensure they are replicated and distributed.  In other words, hoaxes prey on the Human Operating System.”— Stewart Kirkpatrick   ❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
