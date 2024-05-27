@@ -70,7 +70,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝The first electronic computer ENIAC weighed more than 27 tons and took up 1800 square feet.❞</i>
+<i>❝“Everyone by now presumably knows about the danger of premature optimization.  I think we should be just as worried about premature design — designing too early what a program should do.”— Paul Graham   ❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
