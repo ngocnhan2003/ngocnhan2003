@@ -70,7 +70,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝There is a website called “The Useless Web” . This is the last treatment for your boredom. If you ever feel bored please visit.❞</i>
+<i>❝“Getting information off the Internet is like taking a drink from a fire hydrant.”— Mitchell Kapor  ❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
