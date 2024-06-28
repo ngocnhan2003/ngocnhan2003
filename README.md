@@ -70,7 +70,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝“Some people, when confronted with a problem, think ‘I know, I’ll use regular expressions.’  Now they have two problems.”— Jamie Zawinski   ❞</i>
+<i>❝Web Arx security says more than 20,000 websites are hacked each day and most from the US❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
