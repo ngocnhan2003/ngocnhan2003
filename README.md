@@ -70,7 +70,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝As computers run, they get hot. Computers have fans to keep them cool.❞</i>
+<i>❝“The goal is to turn data into information, and information into insight.”— Carly Fiorina❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
