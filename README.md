@@ -70,7 +70,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝“Passwords are like underwear: you don’t let people see it, you should change it very often, and you shouldn’t share it with strangers.”— Chris Pirillo   ❞</i>
+<i>❝“The problem of viruses is temporary and will be solved in two years.”— John McAfee, 1988  ❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
