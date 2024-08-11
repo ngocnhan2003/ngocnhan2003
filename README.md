@@ -70,7 +70,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝“Imagination is more important than knowledge.  For knowledge is limited, whereas imagination embraces the entire world, stimulating progress, giving birth to evolution.”— Albert Einstein   ❞</i>
+<i>❝The first ever hard disk drive was made in 1979, and could hold only 5MB of data.❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
