@@ -70,7 +70,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝“If the code and the comments do not match, possibly both are incorrect.”— Norm Schryer   ❞</i>
+<i>❝The term “World Wide Web” was invented by Tim Berners in 1990.❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
