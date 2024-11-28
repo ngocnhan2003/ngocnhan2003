@@ -70,7 +70,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝The woman who rented her garage to Larry Page and Sergey Brin in 1998 when they were creating Google later became the CEO of YouTube.❞</i>
+<i>❝Whether you use Mozilla, Chrome Explore, please know that Mosaic was the first browser in  Just when I was born.❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
