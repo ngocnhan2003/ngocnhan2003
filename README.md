@@ -70,7 +70,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝“We need above all to know about changes; no one wants or needs to be reminded 16 hours a day that his shoes are on.”— David Hubel   ❞</i>
+<i>❝The Space Invaders game was intended to always be played at the same speed, but as you destroy more aliens, the computer can render faster. This is why the aliens speed up as you near the end of the level.❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
