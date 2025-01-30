@@ -70,7 +70,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝“We need above all to know about changes; no one wants or needs to be reminded 16 hours a day that his shoes are on.”— David Hubel   ❞</i>
+<i>❝Windows doesn’t allow for creation of folders tagged CON, PRN, AUX, or NUL. These are keywords reserved by DOS.❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
