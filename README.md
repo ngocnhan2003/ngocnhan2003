@@ -70,7 +70,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝“Programs must be written for people to read, and only incidentally for machines to execute.”— Abelson and Sussman   ❞</i>
+<i>❝There are over 1.5 billion instant messaging id’s in the world over.❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
