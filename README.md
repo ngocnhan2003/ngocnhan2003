@@ -70,7 +70,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝Windows 95 was the second most installed piece of software on computers in 1995, video game DOOM was first.❞</i>
+<i>❝“If you automate a mess, you get an automated mess.”— Rod Michael   ❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
