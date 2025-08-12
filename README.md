@@ -70,7 +70,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝Facebook has over a billion users. If it was a country it would be the third largest in the world.❞</i>
+<i>❝“XML is not a language in the sense of a programming language any more than sketches on a napkin are a language.”— Charles Simonyi   ❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
