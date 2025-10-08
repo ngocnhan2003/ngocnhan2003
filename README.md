@@ -70,7 +70,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝“It’s hardware that makes a machine fast.  It’s software that makes a fast machine slow.”— Craig Bruce   ❞</i>
+<i>❝“Software is a gas; it expands to fill its container.”— Nathan Myhrvold  ❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
