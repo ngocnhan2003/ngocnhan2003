@@ -70,7 +70,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝“Being able to break security doesn’t make you a hacker anymore than being able to hotwire cars makes you an automotive engineer.”— Eric Raymond   ❞</i>
+<i>❝“If the code and the comments do not match, possibly both are incorrect.”— Norm Schryer   ❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
