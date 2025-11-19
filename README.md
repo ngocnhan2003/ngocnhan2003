@@ -70,7 +70,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝There was a time when AMD and Intel CPUs used the same socket (Socket 7) and could run on the same motherboard.❞</i>
+<i>❝“There’s no obfuscated Perl contest because it’s pointless.”— Jeff Polk   ❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
