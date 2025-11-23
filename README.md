@@ -70,7 +70,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝One of the first instances of a stored computer program was in 1801 when Joseph Marie Jacquard demonstrated a loom that wove fabrics based on hole-punched cards that were fed into the machine.❞</i>
+<i>❝IBM 5120 from 1980 was the heaviest desktop computer ever made. It weighed about 105 pounds, not including the 130 pounds external floppy drive.❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
