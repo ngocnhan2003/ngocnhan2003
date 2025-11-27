@@ -70,7 +70,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝“Programming without an overall architecture or design in mind is like exploring a cave with only a flashlight: You don’t know where you’ve been, you don’t know where you’re going, and you don’t know quite where you are.”— Danny Thorpe   ❞</i>
+<i>❝In 2005, Sony illegally installed rootkits on 22 million computers to prevent the users from ripping copyrighted music, and could not be uninstalled. It also reported user’s listening habits back to Sony. Ironically, the code itself contained open source software, and so infringed copyright.❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
