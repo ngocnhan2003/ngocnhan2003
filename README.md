@@ -6,7 +6,6 @@ class Noah(Developer):
     def __init__(self):
         self.info = Info(
             name="Nhan (Noah) N. TRAN",
-            company="GVM",
             country="Vietnam",
         )
 
