@@ -69,7 +69,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝In 2009, computer scientists created a system that composes a realistic picture from a simple freehand sketch, pulling photos from the internet: Sketch2Photo.❞</i>
+<i>❝elgoog.im (Google spelled backwards) is a mirrored website of Google Search with horizontally flipped search results, also known as a “Google mirror”. An unofficial elgooG website was created by All Too Flat “for fun”, which started to gain popularity in 2002❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
