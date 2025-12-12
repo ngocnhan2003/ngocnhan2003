@@ -69,7 +69,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝“XML is not a language in the sense of a programming language any more than sketches on a napkin are a language.”— Charles Simonyi   ❞</i>
+<i>❝“Before man reaches the moon, mail will be delivered within hours from New York to California, to Britain, to India or Australia.”— Arthur Summerfield, 1959, United States Post❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
