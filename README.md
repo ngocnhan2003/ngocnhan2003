@@ -69,7 +69,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝“The best way to get accurate information on Usenet is to post something wrong and wait for corrections.”— Matthew Austern   ❞</i>
+<i>❝“A computer once beat me at chess, but it was no match for me at kick boxing.”— Emo Philips  ❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
