@@ -69,7 +69,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝Around 50% of all Wikipedia vandalism is caught by a single computer program with more than 90% accuracy.❞</i>
+<i>❝A group of 12 engineers designed IBM PC and they were called as “The Dirty Dozen”.❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
