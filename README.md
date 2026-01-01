@@ -69,7 +69,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝The computer in your cell phone today is million times cheaper and a thousands times more powerful and about a hundred thousands times smaller than the one computer at MIT in 1965.❞</i>
+<i>❝“Standards are always out of date.  That’s what makes them standards.”— Alan Bennett   ❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
