@@ -69,7 +69,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝The first bug in a computer was a dead moth found shorting a relay in the Harvard Mark II computer in 1947❞</i>
+<i>❝The woman who rented her garage to Larry Page and Sergey Brin in 1998 when they were creating Google later became the CEO of YouTube.❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
