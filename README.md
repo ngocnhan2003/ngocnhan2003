@@ -69,7 +69,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝“Programming without an overall architecture or design in mind is like exploring a cave with only a flashlight: You don’t know where you’ve been, you don’t know where you’re going, and you don’t know quite where you are.”— Danny Thorpe   ❞</i>
+<i>❝“I don’t know what the language of the year 2000 will look like, but I know it will be called Fortran.”— CA Hoare, 1982  ❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
