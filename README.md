@@ -69,7 +69,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝“Don’t document the problem, fix it.”— Atli Björgvin Oddsson   ❞</i>
+<i>❝“Some people, when confronted with a problem, think ‘I know, I’ll use regular expressions.’  Now they have two problems.”— Jamie Zawinski   ❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
