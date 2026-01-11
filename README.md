@@ -69,7 +69,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝In 2009, computer scientists created a system that composes a realistic picture from a simple freehand sketch, pulling photos from the internet: Sketch2Photo.❞</i>
+<i>❝“Manually managing blocks of memory in C is like juggling bars of soap in a prison shower: It’s all fun and games until you forget about one of them.”— anonymous Usenet user   ❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
