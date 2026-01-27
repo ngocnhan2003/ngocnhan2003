@@ -69,7 +69,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝“Passwords are like underwear: you don’t let people see it, you should change it very often, and you shouldn’t share it with strangers.”— Chris Pirillo   ❞</i>
+<i>❝“It has been discovered that C++ provides a remarkable facility for concealing the trivial details of a program — such as where its bugs are.”— David Keppel   ❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
