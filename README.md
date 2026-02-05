@@ -69,7 +69,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝“The goal is to turn data into information, and information into insight.”— Carly Fiorina❞</i>
+<i>❝There are over 1.5 billion instant messaging id’s in the world over.❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
