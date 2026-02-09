@@ -69,7 +69,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝“Yes, we have a dress code. You have to dress.”— Scott McNealy, co-founder of Sun Microsystems   ❞</i>
+<i>❝E-Mail was invented before Internet. Shocked!!!! ” I also got shocked after hearing this.”❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
