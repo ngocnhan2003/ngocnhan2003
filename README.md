@@ -69,7 +69,7 @@ class Noah(Developer):
 
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝A 15 year old hacked NASA computers and caused a 21-day shutdown of their computers.❞</i>
+<i>❝TYPEWRITER is the longest word that you can write using the letters only on one row of the keyboard of your computer.❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
