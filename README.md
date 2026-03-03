@@ -67,7 +67,7 @@ class Noah(Developer):
 <a href="https://linkedin.com/in/ngocnhan2003" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="ngocnhan2003" height="30" width="40" /></a>
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝During IBM Watson’s Jeopardy Game, it stored all 15 terabytes of its knowledge in RAM, including every page of Wikipedia in existence.❞</i>
+<i>❝In 2012, the founder of McAfee Antivirus, John McAfee was asked if he personally uses McAfee anti-virus, he replied by saying “I take it off,” and that “It’s too annoying.”❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
