@@ -67,7 +67,7 @@ class Noah(Developer):
 <a href="https://linkedin.com/in/ngocnhan2003" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="ngocnhan2003" height="30" width="40" /></a>
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝The very first computer was an abacus invested 500 B.C in Babylon made of string and beads whose main purpose was to count.❞</i>
+<i>❝There is a website called “The Useless Web” . This is the last treatment for your boredom. If you ever feel bored please visit.❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
