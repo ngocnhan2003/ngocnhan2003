@@ -67,7 +67,7 @@ class Noah(Developer):
 <a href="https://linkedin.com/in/ngocnhan2003" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="ngocnhan2003" height="30" width="40" /></a>
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝“On two occasions I have been asked, ‘If you put into the machine wrong figures, will the right answers come out?’  I am not able rightly to apprehend the kind of confusion of ideas that could provoke such a question.”— Charles Babbage   ❞</i>
+<i>❝The first ever hard disk drive was made in 1979, and could hold only 5MB of data.❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
