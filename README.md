@@ -67,7 +67,7 @@ class Noah(Developer):
 <a href="https://linkedin.com/in/ngocnhan2003" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="ngocnhan2003" height="30" width="40" /></a>
 
 <!--STARTS_HERE_QUOTE_README-->
-<i>❝The Ultra NVidia GeForce 6800 video card was built with 222 million transistors and considered among the best todate.❞</i>
+<i>❝There are around  3.58 billion internet users worldwide as of 2017 according to statista.❞</i>
 <!--ENDS_HERE_QUOTE_README-->
 
 
